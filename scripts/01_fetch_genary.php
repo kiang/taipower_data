@@ -35,3 +35,33 @@ if (file_exists($listFile)) {
 $list[] = date('His', $t);
 sort($list);
 file_put_contents($listFile, json_encode($list, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+
+// Cleanup: keep only the latest 90 days of data in docs/genary
+$genaryPath = $basePath . '/docs/genary';
+$now = time();
+$daysToKeep = 90;
+$cutoff = strtotime("-{$daysToKeep} days", $now);
+
+$years = glob($genaryPath . '/*', GLOB_ONLYDIR);
+foreach ($years as $yearDir) {
+    $dateDirs = glob($yearDir . '/*', GLOB_ONLYDIR);
+    foreach ($dateDirs as $dateDir) {
+        $dateBase = basename($dateDir); // e.g., 20241123
+        $dateObj = DateTime::createFromFormat('Ymd', $dateBase);
+        if ($dateObj === false) continue; // skip malformed
+        $dateTimestamp = $dateObj->getTimestamp();
+        if ($dateTimestamp < $cutoff) {
+            // Recursively delete the folder
+            $it = new RecursiveDirectoryIterator($dateDir, RecursiveDirectoryIterator::SKIP_DOTS);
+            $files = new RecursiveIteratorIterator($it, RecursiveIteratorIterator::CHILD_FIRST);
+            foreach($files as $file) {
+                if ($file->isDir()) {
+                    rmdir($file->getRealPath());
+                } else {
+                    unlink($file->getRealPath());
+                }
+            }
+            rmdir($dateDir);
+        }
+    }
+}
