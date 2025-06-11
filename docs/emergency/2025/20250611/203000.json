@@ -1,0 +1,15 @@
+{
+    "timestamp": "2025-06-11 20:30",
+    "active_emergency_generators": [
+        {
+            "name": "大林#5",
+            "output": "253.9",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2025-06-11 20:30"
+        }
+    ],
+    "total_count": 1,
+    "created_at": "2025-06-11 14:13:45",
+    "source_file": "docs\/genary\/2025\/20250611\/203000.json"
+}

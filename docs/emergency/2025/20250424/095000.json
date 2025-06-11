@@ -1,0 +1,15 @@
+{
+    "timestamp": "2025-04-24 09:50",
+    "active_emergency_generators": [
+        {
+            "name": "興達#4(註12)",
+            "output": "262.3",
+            "percentage": "47.691%",
+            "status": "運轉限制",
+            "timestamp": "2025-04-24 09:50"
+        }
+    ],
+    "total_count": 1,
+    "created_at": "2025-06-11 14:13:45",
+    "source_file": "docs\/genary\/2025\/20250424\/095000.json"
+}

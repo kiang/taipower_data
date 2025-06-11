@@ -1,0 +1,22 @@
+{
+    "timestamp": "2025-04-21 12:10",
+    "active_emergency_generators": [
+        {
+            "name": "興達#3(註12)",
+            "output": "254.2",
+            "percentage": "46.218%",
+            "status": "",
+            "timestamp": "2025-04-21 12:10"
+        },
+        {
+            "name": "興達#4(註12)",
+            "output": "266.1",
+            "percentage": "48.382%",
+            "status": "",
+            "timestamp": "2025-04-21 12:10"
+        }
+    ],
+    "total_count": 2,
+    "created_at": "2025-06-11 14:13:44",
+    "source_file": "docs\/genary\/2025\/20250421\/121000.json"
+}

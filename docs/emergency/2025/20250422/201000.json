@@ -1,0 +1,22 @@
+{
+    "timestamp": "2025-04-22 20:10",
+    "active_emergency_generators": [
+        {
+            "name": "興達#4(註12)",
+            "output": "261.5",
+            "percentage": "47.545%",
+            "status": "",
+            "timestamp": "2025-04-22 20:10"
+        },
+        {
+            "name": "大林#5",
+            "output": "48.2",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2025-04-22 20:10"
+        }
+    ],
+    "total_count": 2,
+    "created_at": "2025-06-11 14:13:44",
+    "source_file": "docs\/genary\/2025\/20250422\/201000.json"
+}
