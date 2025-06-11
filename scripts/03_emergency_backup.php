@@ -126,47 +126,13 @@ function createEmergencyBackup($emergencyData, $timestamp) {
 }
 
 /**
- * Cleanup old emergency backup files (keep 90 days)
+ * Emergency backup cleanup is disabled - keeping all data forever
+ * This function is retained for potential future use but does nothing
  */
 function cleanupOldEmergencyBackups() {
-    global $basePath;
-    
-    $emergencyPath = $basePath . '/docs/emergency';
-    $daysToKeep = 90;
-    $cutoff = strtotime("-{$daysToKeep} days");
-    
-    if (!is_dir($emergencyPath)) {
-        return;
-    }
-    
-    $years = glob($emergencyPath . '/*', GLOB_ONLYDIR);
-    foreach ($years as $yearDir) {
-        $dateDirs = glob($yearDir . '/*', GLOB_ONLYDIR);
-        foreach ($dateDirs as $dateDir) {
-            $dateBase = basename($dateDir);
-            $dateObj = DateTime::createFromFormat('Ymd', $dateBase);
-            if ($dateObj === false) continue;
-            
-            if ($dateObj->getTimestamp() < $cutoff) {
-                $it = new RecursiveDirectoryIterator($dateDir, RecursiveDirectoryIterator::SKIP_DOTS);
-                $files = new RecursiveIteratorIterator($it, RecursiveIteratorIterator::CHILD_FIRST);
-                foreach($files as $file) {
-                    if ($file->isDir()) {
-                        rmdir($file->getRealPath());
-                    } else {
-                        unlink($file->getRealPath());
-                    }
-                }
-                rmdir($dateDir);
-                echo "Cleaned up old emergency backup: {$dateDir}\n";
-            }
-        }
-        
-        // Remove empty year directories
-        if (count(glob($yearDir . '/*')) === 0) {
-            rmdir($yearDir);
-        }
-    }
+    // Emergency backup data is now kept permanently
+    // No cleanup is performed to preserve historical emergency records
+    echo "Emergency backup cleanup disabled - keeping all data permanently\n";
 }
 
 // Main execution

@@ -28,7 +28,7 @@ The system uses intelligent pattern matching to handle cases where generator nam
 1. **Automatic Monitoring**: The `03_emergency_backup.php` script runs automatically via cron every time new data is fetched
 2. **Detection Logic**: Checks if any emergency generators have values that are not empty, "0.0", "0", or "-"
 3. **Backup Creation**: When active emergency generators are detected, creates backup files in `docs/emergency/YYYY/YYYYMMDD/` format
-4. **Data Retention**: Automatically cleans up backup files older than 90 days
+4. **Data Retention**: All emergency backup data is kept permanently for historical analysis
 
 ## File Structure
 
@@ -47,7 +47,7 @@ Main backup script that:
 - Scans current generator data for emergency activations
 - Creates timestamped backup files
 - Maintains daily index files
-- Cleans up old backups
+- Preserves all emergency data permanently
 
 ### `scripts/04_parse_historical_emergency.php`
 Historical data parser that:
