@@ -175,6 +175,9 @@ function createHistoricalEmergencyBackup($emergencyData, $timestamp, $sourceFile
         file_put_contents($indexFile, json_encode($index, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
     }
     
+    // Update monthly index
+    updateMonthlyEmergencyIndex($t);
+    
     return true;
 }
 
@@ -250,6 +253,109 @@ function processHistoricalFiles($emergencyGeneratorPatterns) {
     echo "Emergency events found: {$emergencyCount}\n";
     echo "Errors encountered: {$errorCount}\n";
     echo str_repeat("=", 60) . "\n";
+}
+
+/**
+ * Update monthly index when new emergency data is added
+ * @param int $timestamp Unix timestamp of the emergency event
+ */
+function updateMonthlyEmergencyIndex($timestamp) {
+    global $basePath;
+    
+    $date = date('Ymd', $timestamp);
+    $year = date('Y', $timestamp);
+    $yearMonth = date('Ym', $timestamp);
+    
+    $emergencyPath = $basePath . '/docs/emergency';
+    $yearDir = $emergencyPath . '/' . $year;
+    $dateDir = $yearDir . '/' . $date;
+    
+    // Check if the date directory has emergency data
+    if (!is_dir($dateDir)) {
+        return;
+    }
+    
+    $emergencyFiles = glob($dateDir . '/*.json');
+    $hasEmergencyData = false;
+    
+    foreach ($emergencyFiles as $file) {
+        if (basename($file) !== 'index.json') {
+            $hasEmergencyData = true;
+            break;
+        }
+    }
+    
+    if (!$hasEmergencyData) {
+        return;
+    }
+    
+    // Read or create monthly index
+    $monthlyIndexFile = $yearDir . '/' . $yearMonth . '.json';
+    $monthlyIndex = [];
+    
+    if (file_exists($monthlyIndexFile)) {
+        $monthlyData = json_decode(file_get_contents($monthlyIndexFile), true);
+        if ($monthlyData && isset($monthlyData['dates'])) {
+            $monthlyIndex = $monthlyData['dates'];
+        }
+    }
+    
+    // Check if this date already exists in monthly index
+    $dateExists = false;
+    foreach ($monthlyIndex as $dayData) {
+        if ($dayData['date'] === $date) {
+            $dateExists = true;
+            break;
+        }
+    }
+    
+    if (!$dateExists) {
+        // Get index.json data for this date
+        $indexFile = $dateDir . '/index.json';
+        $dayData = [
+            'date' => $date,
+            'formatted_date' => date('Y-m-d', $timestamp)
+        ];
+        
+        if (file_exists($indexFile)) {
+            $indexData = json_decode(file_get_contents($indexFile), true);
+            if ($indexData && is_array($indexData)) {
+                $dayData['events'] = count($indexData);
+                $dayData['times'] = array_column($indexData, 'time');
+                $dayData['total_generators'] = array_sum(array_column($indexData, 'count'));
+                
+                // Get unique generator names
+                $allGenerators = [];
+                foreach ($indexData as $event) {
+                    if (isset($event['generators']) && is_array($event['generators'])) {
+                        $allGenerators = array_merge($allGenerators, $event['generators']);
+                    }
+                }
+                $dayData['unique_generators'] = array_unique($allGenerators);
+            }
+        } else {
+            $dayData['events'] = count($emergencyFiles) - 1; // Exclude index.json
+        }
+        
+        $monthlyIndex[] = $dayData;
+        
+        // Sort by date
+        usort($monthlyIndex, function($a, $b) {
+            return strcmp($a['date'], $b['date']);
+        });
+        
+        // Write updated monthly index
+        $monthlyIndexData = [
+            'year_month' => $yearMonth,
+            'year' => substr($yearMonth, 0, 4),
+            'month' => substr($yearMonth, 4, 2),
+            'total_days' => count($monthlyIndex),
+            'dates' => $monthlyIndex,
+            'generated_at' => date('Y-m-d H:i:s')
+        ];
+        
+        file_put_contents($monthlyIndexFile, json_encode($monthlyIndexData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    }
 }
 
 /**

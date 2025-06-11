@@ -1,0 +1,34 @@
+{
+    "total_months": 4,
+    "months": [
+        {
+            "year_month": "202503",
+            "year": "2025",
+            "month": "03",
+            "total_days": 2,
+            "file": "docs\/emergency\/2025\/202503.json"
+        },
+        {
+            "year_month": "202504",
+            "year": "2025",
+            "month": "04",
+            "total_days": 9,
+            "file": "docs\/emergency\/2025\/202504.json"
+        },
+        {
+            "year_month": "202505",
+            "year": "2025",
+            "month": "05",
+            "total_days": 4,
+            "file": "docs\/emergency\/2025\/202505.json"
+        },
+        {
+            "year_month": "202506",
+            "year": "2025",
+            "month": "06",
+            "total_days": 1,
+            "file": "docs\/emergency\/2025\/202506.json"
+        }
+    ],
+    "generated_at": "2025-06-11 14:39:50"
+}
