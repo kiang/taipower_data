@@ -336,7 +336,35 @@
         "count": 1
     },
     {
+        "time": "214000",
+        "generators": [
+            "大林#5"
+        ],
+        "count": 1
+    },
+    {
+        "time": "215000",
+        "generators": [
+            "大林#5"
+        ],
+        "count": 1
+    },
+    {
+        "time": "220000",
+        "generators": [
+            "大林#5"
+        ],
+        "count": 1
+    },
+    {
         "time": "221000",
+        "generators": [
+            "大林#5"
+        ],
+        "count": 1
+    },
+    {
+        "time": "222000",
         "generators": [
             "大林#5"
         ],

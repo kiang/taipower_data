@@ -207,7 +207,7 @@ function updateMonthlyEmergencyIndex($timestamp) {
                         $allGenerators = array_merge($allGenerators, $event['generators']);
                     }
                 }
-                $dayData['unique_generators'] = array_unique($allGenerators);
+                $dayData['unique_generators'] = array_values(array_unique($allGenerators));
             }
         } else {
             $dayData['events'] = count($emergencyFiles) - 1; // Exclude index.json
@@ -222,7 +222,7 @@ function updateMonthlyEmergencyIndex($timestamp) {
         
         // Write updated monthly index
         $monthlyIndexData = [
-            'year_month' => $yearMonth,
+            'year_month' => (string)$yearMonth,
             'year' => substr($yearMonth, 0, 4),
             'month' => substr($yearMonth, 4, 2),
             'total_days' => count($monthlyIndex),

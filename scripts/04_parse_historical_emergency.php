@@ -178,6 +178,9 @@ function createHistoricalEmergencyBackup($emergencyData, $timestamp, $sourceFile
     // Update monthly index
     updateMonthlyEmergencyIndex($t);
     
+    // Update main monthly index
+    updateMainMonthlyIndex();
+    
     return true;
 }
 
@@ -331,7 +334,7 @@ function updateMonthlyEmergencyIndex($timestamp) {
                         $allGenerators = array_merge($allGenerators, $event['generators']);
                     }
                 }
-                $dayData['unique_generators'] = array_unique($allGenerators);
+                $dayData['unique_generators'] = array_values(array_unique($allGenerators));
             }
         } else {
             $dayData['events'] = count($emergencyFiles) - 1; // Exclude index.json
@@ -346,7 +349,7 @@ function updateMonthlyEmergencyIndex($timestamp) {
         
         // Write updated monthly index
         $monthlyIndexData = [
-            'year_month' => $yearMonth,
+            'year_month' => (string)$yearMonth,
             'year' => substr($yearMonth, 0, 4),
             'month' => substr($yearMonth, 4, 2),
             'total_days' => count($monthlyIndex),
@@ -356,6 +359,70 @@ function updateMonthlyEmergencyIndex($timestamp) {
         
         file_put_contents($monthlyIndexFile, json_encode($monthlyIndexData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
     }
+}
+
+/**
+ * Update the main monthly index file that summarizes all months
+ */
+function updateMainMonthlyIndex() {
+    global $basePath;
+    
+    $emergencyPath = $basePath . '/docs/emergency';
+    $mainIndexFile = $emergencyPath . '/monthly_index.json';
+    
+    $months = [];
+    
+    // Scan for year directories
+    $yearDirs = glob($emergencyPath . '/[0-9][0-9][0-9][0-9]');
+    
+    foreach ($yearDirs as $yearDir) {
+        $year = basename($yearDir);
+        
+        // Find all monthly JSON files
+        $monthlyFiles = glob($yearDir . '/[0-9][0-9][0-9][0-9][0-9][0-9].json');
+        
+        foreach ($monthlyFiles as $monthlyFile) {
+            $fileName = basename($monthlyFile, '.json');
+            
+            if (preg_match('/^(\d{4})(\d{2})$/', $fileName, $matches)) {
+                $year = $matches[1];
+                $month = $matches[2];
+                
+                // Read the monthly file to get total_days
+                $monthlyData = json_decode(file_get_contents($monthlyFile), true);
+                $totalDays = 0;
+                
+                if ($monthlyData && isset($monthlyData['total_days'])) {
+                    $totalDays = $monthlyData['total_days'];
+                } elseif ($monthlyData && isset($monthlyData['dates'])) {
+                    $totalDays = count($monthlyData['dates']);
+                }
+                
+                $months[] = [
+                    'year_month' => $fileName,
+                    'year' => $year,
+                    'month' => $month,
+                    'total_days' => $totalDays,
+                    'file' => 'docs/emergency/' . $year . '/' . $fileName . '.json'
+                ];
+            }
+        }
+    }
+    
+    // Sort by year_month
+    usort($months, function($a, $b) {
+        return strcmp($a['year_month'], $b['year_month']);
+    });
+    
+    $mainIndex = [
+        'total_months' => count($months),
+        'months' => $months,
+        'generated_at' => date('Y-m-d H:i:s')
+    ];
+    
+    file_put_contents($mainIndexFile, json_encode($mainIndex, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    
+    echo "Main monthly index updated: {$mainIndexFile}\n";
 }
 
 /**
