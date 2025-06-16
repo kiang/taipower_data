@@ -2,7 +2,7 @@
     "year_month": "202506",
     "year": "2025",
     "month": "06",
-    "total_days": 2,
+    "total_days": 3,
     "dates": [
         {
             "date": "20250611",
@@ -165,7 +165,19 @@
             "unique_generators": [
                 "大林#5"
             ]
+        },
+        {
+            "date": "20250616",
+            "formatted_date": "2025-06-16",
+            "events": 1,
+            "times": [
+                "110000"
+            ],
+            "total_generators": 1,
+            "unique_generators": [
+                "核三Gas1"
+            ]
         }
     ],
-    "generated_at": "2025-06-13 01:30:57"
+    "generated_at": "2025-06-16 11:12:03"
 }
