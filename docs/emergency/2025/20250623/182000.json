@@ -1,0 +1,15 @@
+{
+    "timestamp": "2025-06-23 18:20",
+    "active_emergency_generators": [
+        {
+            "name": "核三Gas2",
+            "pattern": "核三Gas2",
+            "output": "24.9",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2025-06-23 18:20"
+        }
+    ],
+    "total_count": 1,
+    "created_at": "2025-06-23 18:32:04"
+}
