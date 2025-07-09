@@ -177,61 +177,66 @@ function updateMonthlyEmergencyIndex($timestamp) {
     }
     
     // Check if this date already exists in monthly index
-    $dateExists = false;
-    foreach ($monthlyIndex as $dayData) {
+    $dateIndex = -1;
+    foreach ($monthlyIndex as $index => $dayData) {
         if ($dayData['date'] === $date) {
-            $dateExists = true;
+            $dateIndex = $index;
             break;
         }
     }
     
-    if (!$dateExists) {
-        // Get index.json data for this date
-        $indexFile = $dateDir . '/index.json';
-        $dayData = [
-            'date' => $date,
-            'formatted_date' => date('Y-m-d', $timestamp)
-        ];
-        
-        if (file_exists($indexFile)) {
-            $indexData = json_decode(file_get_contents($indexFile), true);
-            if ($indexData && is_array($indexData)) {
-                $dayData['events'] = count($indexData);
-                $dayData['times'] = array_column($indexData, 'time');
-                $dayData['total_generators'] = array_sum(array_column($indexData, 'count'));
-                
-                // Get unique generator names
-                $allGenerators = [];
-                foreach ($indexData as $event) {
-                    if (isset($event['generators']) && is_array($event['generators'])) {
-                        $allGenerators = array_merge($allGenerators, $event['generators']);
-                    }
+    // Get index.json data for this date (always read fresh data)
+    $indexFile = $dateDir . '/index.json';
+    $dayData = [
+        'date' => $date,
+        'formatted_date' => date('Y-m-d', $timestamp)
+    ];
+    
+    if (file_exists($indexFile)) {
+        $indexData = json_decode(file_get_contents($indexFile), true);
+        if ($indexData && is_array($indexData)) {
+            $dayData['events'] = count($indexData);
+            $dayData['times'] = array_column($indexData, 'time');
+            $dayData['total_generators'] = array_sum(array_column($indexData, 'count'));
+            
+            // Get unique generator names
+            $allGenerators = [];
+            foreach ($indexData as $event) {
+                if (isset($event['generators']) && is_array($event['generators'])) {
+                    $allGenerators = array_merge($allGenerators, $event['generators']);
                 }
-                $dayData['unique_generators'] = array_values(array_unique($allGenerators));
             }
-        } else {
-            $dayData['events'] = count($emergencyFiles) - 1; // Exclude index.json
+            $dayData['unique_generators'] = array_values(array_unique($allGenerators));
         }
-        
-        $monthlyIndex[] = $dayData;
-        
-        // Sort by date
-        usort($monthlyIndex, function($a, $b) {
-            return strcmp($a['date'], $b['date']);
-        });
-        
-        // Write updated monthly index
-        $monthlyIndexData = [
-            'year_month' => (string)$yearMonth,
-            'year' => substr($yearMonth, 0, 4),
-            'month' => substr($yearMonth, 4, 2),
-            'total_days' => count($monthlyIndex),
-            'dates' => $monthlyIndex,
-            'generated_at' => date('Y-m-d H:i:s')
-        ];
-        
-        file_put_contents($monthlyIndexFile, json_encode($monthlyIndexData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    } else {
+        $dayData['events'] = count($emergencyFiles) - 1; // Exclude index.json
     }
+    
+    // Update or add the date entry
+    if ($dateIndex >= 0) {
+        // Update existing entry
+        $monthlyIndex[$dateIndex] = $dayData;
+    } else {
+        // Add new entry
+        $monthlyIndex[] = $dayData;
+    }
+    
+    // Sort by date
+    usort($monthlyIndex, function($a, $b) {
+        return strcmp($a['date'], $b['date']);
+    });
+    
+    // Write updated monthly index
+    $monthlyIndexData = [
+        'year_month' => (string)$yearMonth,
+        'year' => substr($yearMonth, 0, 4),
+        'month' => substr($yearMonth, 4, 2),
+        'total_days' => count($monthlyIndex),
+        'dates' => $monthlyIndex,
+        'generated_at' => date('Y-m-d H:i:s')
+    ];
+    
+    file_put_contents($monthlyIndexFile, json_encode($monthlyIndexData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
 }
 
 /**
