@@ -117,7 +117,7 @@ $csvFile = $basePath . '/docs/solar.csv';
 $csvContent = "date,sum_mw\n";
 
 foreach ($solarData as $row) {
-    $csvContent .= $row['date'] . ',' . number_format($row['sum_mw'], 2) . "\n";
+    $csvContent .= $row['date'] . ',' . number_format($row['sum_mw'], 2, '.', '') . "\n";
 }
 
 file_put_contents($csvFile, $csvContent);
