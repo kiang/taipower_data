@@ -72,14 +72,14 @@ function calculateDailySolarSum($date) {
 }
 
 /**
- * Get the last 30 days of dates
+ * Get the last 60 days of dates
  * @return array Array of dates in YYYYMMDD format
  */
-function getLast30Days() {
+function getLast60Days() {
     $dates = [];
     $currentDate = new DateTime();
     
-    for ($i = 0; $i < 30; $i++) {
+    for ($i = 0; $i < 60; $i++) {
         $dates[] = $currentDate->format('Ymd');
         $currentDate->modify('-1 day');
     }
@@ -97,9 +97,9 @@ function formatDate($date) {
 }
 
 // Main execution
-echo "Calculating daily solar power generation sums for the last 30 days...\n";
+echo "Calculating daily solar power generation sums for the last 60 days...\n";
 
-$dates = getLast30Days();
+$dates = getLast60Days();
 $solarData = [];
 
 foreach ($dates as $date) {
@@ -132,7 +132,7 @@ $maxSum = max(array_column($solarData, 'sum_mw'));
 $minSum = min(array_column($solarData, 'sum_mw'));
 
 echo "\nSummary Statistics:\n";
-echo "Total Solar Generation (30 days): " . number_format($totalSum, 2) . " MW\n";
+echo "Total Solar Generation (60 days): " . number_format($totalSum, 2) . " MW\n";
 echo "Average Daily Generation: " . number_format($averageSum, 2) . " MW\n";
 echo "Maximum Daily Generation: " . number_format($maxSum, 2) . " MW\n";
 echo "Minimum Daily Generation: " . number_format($minSum, 2) . " MW\n";
