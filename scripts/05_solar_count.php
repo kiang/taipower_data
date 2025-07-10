@@ -2,14 +2,15 @@
 $basePath = dirname(__DIR__);
 
 /**
- * Calculate daily solar power generation sums for the last 30 days
- * Output format: CSV with date and sum MW fields
+ * Calculate daily solar power generation sums for the last 60 days
+ * Output format: CSV with date and sum in 度 (kWh) fields
+ * Each data point represents 10 minutes, so MW * (10/60) = MWh, then * 1000 = kWh (度)
  */
 
 /**
  * Extract solar power data from a single JSON file
  * @param string $filePath Path to the JSON file
- * @return float Total solar power generation in MW
+ * @return float Total solar power generation in 度 (kWh) for 10-minute period
  */
 function extractSolarPowerFromFile($filePath) {
     if (!file_exists($filePath)) {
@@ -31,7 +32,8 @@ function extractSolarPowerFromFile($filePath) {
                 $output = trim($row[4]);
                 // Convert to float, handling N/A and other non-numeric values
                 if (is_numeric($output)) {
-                    $solarTotal += floatval($output);
+                    // Convert MW to kWh (度): MW * (10/60) hours * 1000 = kWh
+                    $solarTotal += floatval($output) * (10.0/60.0) * 1000.0;
                 }
             }
         }
@@ -43,7 +45,7 @@ function extractSolarPowerFromFile($filePath) {
 /**
  * Calculate daily solar power sum for a specific date
  * @param string $date Date in YYYYMMDD format
- * @return float Daily solar power sum in MW
+ * @return float Daily solar power sum in 度 (kWh)
  */
 function calculateDailySolarSum($date) {
     global $basePath;
@@ -64,8 +66,8 @@ function calculateDailySolarSum($date) {
             continue;
         }
         
-        $solarPower = extractSolarPowerFromFile($file);
-        $dailySum += $solarPower;
+        $solarEnergy = extractSolarPowerFromFile($file);
+        $dailySum += $solarEnergy;
     }
     
     return $dailySum;
@@ -106,18 +108,18 @@ foreach ($dates as $date) {
     $dailySum = calculateDailySolarSum($date);
     $solarData[] = [
         'date' => formatDate($date),
-        'sum_mw' => $dailySum
+        'sum_kwh' => $dailySum
     ];
     
-    echo "Date: " . formatDate($date) . " - Solar Sum: " . number_format($dailySum, 2) . " MW\n";
+    echo "Date: " . formatDate($date) . " - Solar Sum: " . number_format($dailySum, 0) . " 度\n";
 }
 
 // Create CSV output
 $csvFile = $basePath . '/docs/solar.csv';
-$csvContent = "date,sum_mw\n";
+$csvContent = "date,sum_kwh\n";
 
 foreach ($solarData as $row) {
-    $csvContent .= $row['date'] . ',' . number_format($row['sum_mw'], 2, '.', '') . "\n";
+    $csvContent .= $row['date'] . ',' . number_format($row['sum_kwh'], 0, '.', '') . "\n";
 }
 
 file_put_contents($csvFile, $csvContent);
@@ -126,13 +128,13 @@ echo "\nCSV file created: {$csvFile}\n";
 echo "Total records: " . count($solarData) . "\n";
 
 // Display summary statistics
-$totalSum = array_sum(array_column($solarData, 'sum_mw'));
+$totalSum = array_sum(array_column($solarData, 'sum_kwh'));
 $averageSum = $totalSum / count($solarData);
-$maxSum = max(array_column($solarData, 'sum_mw'));
-$minSum = min(array_column($solarData, 'sum_mw'));
+$maxSum = max(array_column($solarData, 'sum_kwh'));
+$minSum = min(array_column($solarData, 'sum_kwh'));
 
 echo "\nSummary Statistics:\n";
-echo "Total Solar Generation (60 days): " . number_format($totalSum, 2) . " MW\n";
-echo "Average Daily Generation: " . number_format($averageSum, 2) . " MW\n";
-echo "Maximum Daily Generation: " . number_format($maxSum, 2) . " MW\n";
-echo "Minimum Daily Generation: " . number_format($minSum, 2) . " MW\n";
+echo "Total Solar Generation (60 days): " . number_format($totalSum, 0) . " 度\n";
+echo "Average Daily Generation: " . number_format($averageSum, 0) . " 度\n";
+echo "Maximum Daily Generation: " . number_format($maxSum, 0) . " 度\n";
+echo "Minimum Daily Generation: " . number_format($minSum, 0) . " 度\n";
