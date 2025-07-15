@@ -19,15 +19,16 @@
         {
             "date": "20250715",
             "formatted_date": "2025-07-15",
-            "events": 1,
+            "events": 2,
             "times": [
-                "171000"
+                "171000",
+                "172000"
             ],
-            "total_generators": 1,
+            "total_generators": 2,
             "unique_generators": [
                 "核二Gas2"
             ]
         }
     ],
-    "generated_at": "2025-07-15 17:22:03"
+    "generated_at": "2025-07-15 17:32:04"
 }
