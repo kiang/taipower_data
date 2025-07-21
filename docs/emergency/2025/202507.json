@@ -2,7 +2,7 @@
     "year_month": "202507",
     "year": "2025",
     "month": "07",
-    "total_days": 2,
+    "total_days": 3,
     "dates": [
         {
             "date": "20250705",
@@ -30,7 +30,19 @@
             "unique_generators": [
                 "核二Gas2"
             ]
+        },
+        {
+            "date": "20250721",
+            "formatted_date": "2025-07-21",
+            "events": 1,
+            "times": [
+                "172000"
+            ],
+            "total_generators": 1,
+            "unique_generators": [
+                "台中Gas1&amp;2"
+            ]
         }
     ],
-    "generated_at": "2025-07-15 17:52:03"
+    "generated_at": "2025-07-21 17:32:03"
 }
