@@ -1,0 +1,15 @@
+{
+    "timestamp": "2025-08-22 17:30",
+    "active_emergency_generators": [
+        {
+            "name": "台中Gas3&amp;4",
+            "pattern": "台中Gas3&amp;4",
+            "output": "58.5",
+            "percentage": "41.786%",
+            "status": "測試運轉",
+            "timestamp": "2025-08-22 17:30"
+        }
+    ],
+    "total_count": 1,
+    "created_at": "2025-08-22 17:42:03"
+}
