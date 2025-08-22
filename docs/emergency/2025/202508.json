@@ -45,7 +45,7 @@
         {
             "date": "20250822",
             "formatted_date": "2025-08-22",
-            "events": 35,
+            "events": 36,
             "times": [
                 "140000",
                 "141000",
@@ -81,13 +81,14 @@
                 "191000",
                 "192000",
                 "193000",
-                "194000"
+                "194000",
+                "195000"
             ],
-            "total_generators": 35,
+            "total_generators": 36,
             "unique_generators": [
                 "台中Gas3&amp;4"
             ]
         }
     ],
-    "generated_at": "2025-08-22 19:52:04"
+    "generated_at": "2025-08-22 20:02:04"
 }
