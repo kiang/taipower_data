@@ -2,7 +2,7 @@
     "year_month": "202508",
     "year": "2025",
     "month": "08",
-    "total_days": 3,
+    "total_days": 4,
     "dates": [
         {
             "date": "20250812",
@@ -41,7 +41,19 @@
             "unique_generators": [
                 "台中Gas3&amp;4"
             ]
+        },
+        {
+            "date": "20250822",
+            "formatted_date": "2025-08-22",
+            "events": 1,
+            "times": [
+                "140000"
+            ],
+            "total_generators": 1,
+            "unique_generators": [
+                "台中Gas3&amp;4"
+            ]
         }
     ],
-    "generated_at": "2025-08-21 17:52:03"
+    "generated_at": "2025-08-22 14:12:04"
 }
