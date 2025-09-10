@@ -556,6 +556,7 @@ $htmlContent .= '
         <div class="footer">
             <p>報告生成時間：' . date('Y-m-d H:i:s') . '</p>
             <p>資料來源：台電即時電力資訊 | 每筆記錄代表10分鐘發電量</p>
+            <p>製作人：<a href="https://facebook.com/k.olc.tw" target="_blank" style="color: #667eea; text-decoration: none;">江明宗</a></p>
         </div>
     </div>
 </body>
