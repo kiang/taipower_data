@@ -7,7 +7,7 @@
         {
             "date": "20250910",
             "formatted_date": "2025-09-10",
-            "events": 10,
+            "events": 11,
             "times": [
                 "124000",
                 "125000",
@@ -18,13 +18,16 @@
                 "134000",
                 "135000",
                 "140000",
-                "141000"
+                "141000",
+                "142000"
             ],
-            "total_generators": 10,
+            "total_generators": 13,
             "unique_generators": [
-                "大林#5"
+                "大林#5",
+                "台中Gas1&amp;2",
+                "台中Gas3&amp;4"
             ]
         }
     ],
-    "generated_at": "2025-09-10 14:22:03"
+    "generated_at": "2025-09-10 14:32:04"
 }
