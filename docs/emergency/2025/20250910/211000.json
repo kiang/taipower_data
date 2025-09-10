@@ -1,0 +1,31 @@
+{
+    "timestamp": "2025-09-10 21:10",
+    "active_emergency_generators": [
+        {
+            "name": "興達#4(註12)",
+            "pattern": "興達#4",
+            "output": "146.8",
+            "percentage": "26.691%",
+            "status": "",
+            "timestamp": "2025-09-10 21:10"
+        },
+        {
+            "name": "核二Gas1",
+            "pattern": "核二Gas1",
+            "output": "13.8",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2025-09-10 21:10"
+        },
+        {
+            "name": "台中Gas3&amp;4",
+            "pattern": "台中Gas3&amp;4",
+            "output": "81.0",
+            "percentage": "57.857%",
+            "status": "",
+            "timestamp": "2025-09-10 21:10"
+        }
+    ],
+    "total_count": 3,
+    "created_at": "2025-09-10 21:22:03"
+}
