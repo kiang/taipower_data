@@ -1,0 +1,55 @@
+{
+    "timestamp": "2025-09-10 15:00",
+    "active_emergency_generators": [
+        {
+            "name": "大林#5",
+            "pattern": "大林#5",
+            "output": "89.4",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2025-09-10 15:00"
+        },
+        {
+            "name": "核二Gas1",
+            "pattern": "核二Gas1",
+            "output": "40.5",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2025-09-10 15:00"
+        },
+        {
+            "name": "核二Gas2",
+            "pattern": "核二Gas2",
+            "output": "40.6",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2025-09-10 15:00"
+        },
+        {
+            "name": "核三Gas2",
+            "pattern": "核三Gas2",
+            "output": "4.4",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2025-09-10 15:00"
+        },
+        {
+            "name": "台中Gas1&amp;2",
+            "pattern": "台中Gas1&amp;2",
+            "output": "111.0",
+            "percentage": "79.286%",
+            "status": "",
+            "timestamp": "2025-09-10 15:00"
+        },
+        {
+            "name": "台中Gas3&amp;4",
+            "pattern": "台中Gas3&amp;4",
+            "output": "112.1",
+            "percentage": "80.071%",
+            "status": "",
+            "timestamp": "2025-09-10 15:00"
+        }
+    ],
+    "total_count": 6,
+    "created_at": "2025-09-10 15:12:03"
+}
