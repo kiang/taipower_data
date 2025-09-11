@@ -1,0 +1,39 @@
+{
+    "timestamp": "2025-09-11 21:10",
+    "active_emergency_generators": [
+        {
+            "name": "興達#2(註15)",
+            "pattern": "興達#2",
+            "output": "249.8",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2025-09-11 21:10"
+        },
+        {
+            "name": "興達#4(註12)",
+            "pattern": "興達#4",
+            "output": "370.0",
+            "percentage": "67.273%",
+            "status": "",
+            "timestamp": "2025-09-11 21:10"
+        },
+        {
+            "name": "核二Gas1",
+            "pattern": "核二Gas1",
+            "output": "40.0",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2025-09-11 21:10"
+        },
+        {
+            "name": "核三Gas1",
+            "pattern": "核三Gas1",
+            "output": "35.9",
+            "percentage": "-",
+            "status": "環保測試",
+            "timestamp": "2025-09-11 21:10"
+        }
+    ],
+    "total_count": 4,
+    "created_at": "2025-09-11 21:22:03"
+}
