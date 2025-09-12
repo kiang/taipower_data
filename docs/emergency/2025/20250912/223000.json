@@ -1,0 +1,23 @@
+{
+    "timestamp": "2025-09-12 22:30",
+    "active_emergency_generators": [
+        {
+            "name": "興達#4(註12)",
+            "pattern": "興達#4",
+            "output": "326.9",
+            "percentage": "59.436%",
+            "status": "",
+            "timestamp": "2025-09-12 22:30"
+        },
+        {
+            "name": "核三Gas2",
+            "pattern": "核三Gas2",
+            "output": "34.0",
+            "percentage": "-",
+            "status": "測試運轉",
+            "timestamp": "2025-09-12 22:30"
+        }
+    ],
+    "total_count": 2,
+    "created_at": "2025-09-12 22:42:03"
+}
