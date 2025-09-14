@@ -411,19 +411,20 @@
         {
             "date": "20250915",
             "formatted_date": "2025-09-15",
-            "events": 5,
+            "events": 6,
             "times": [
                 "001000",
                 "001000",
                 "002000",
                 "002000",
+                "002000",
                 "002000"
             ],
-            "total_generators": 5,
+            "total_generators": 6,
             "unique_generators": [
                 "興達#3(註12)"
             ]
         }
     ],
-    "generated_at": "2025-09-15 01:02:03"
+    "generated_at": "2025-09-15 01:12:03"
 }
