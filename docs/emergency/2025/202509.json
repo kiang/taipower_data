@@ -2,7 +2,7 @@
     "year_month": "202509",
     "year": "2025",
     "month": "09",
-    "total_days": 4,
+    "total_days": 5,
     "dates": [
         {
             "date": "20250910",
@@ -569,7 +569,21 @@
                 "台中Gas1&amp;2",
                 "興達#2(註15)"
             ]
+        },
+        {
+            "date": "20250916",
+            "formatted_date": "2025-09-16",
+            "events": 1,
+            "times": [
+                "000000"
+            ],
+            "total_generators": 3,
+            "unique_generators": [
+                "興達#2(註15)",
+                "興達#3(註12)",
+                "興達#4(註12)"
+            ]
         }
     ],
-    "generated_at": "2025-09-16 00:02:04"
+    "generated_at": "2025-09-16 00:12:04"
 }
