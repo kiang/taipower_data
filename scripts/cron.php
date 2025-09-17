@@ -6,6 +6,8 @@ exec("cd {$rootPath} && /usr/bin/git pull");
 
 exec("php -q {$rootPath}/scripts/01_fetch_genary.php");
 
+exec("php -q {$rootPath}/scripts/01_pump_count.php");
+
 exec("php -q {$rootPath}/scripts/03_emergency_backup.php");
 
 exec("cd {$rootPath} && /usr/bin/git add -A");
