@@ -1,0 +1,68 @@
+{
+    "大觀二#1": {
+        "energy_storage_sum": 1898,
+        "energy_storage_count": 144,
+        "energy_storage_load_sum": 14073.7,
+        "energy_storage_load_count": 144
+    },
+    "大觀二#2": {
+        "energy_storage_sum": 4606.4,
+        "energy_storage_count": 144,
+        "energy_storage_load_sum": 13382.5,
+        "energy_storage_load_count": 144
+    },
+    "大觀二#3": {
+        "energy_storage_sum": 0,
+        "energy_storage_count": 144,
+        "energy_storage_load_sum": 0,
+        "energy_storage_load_count": 144
+    },
+    "大觀二#4": {
+        "energy_storage_sum": 9476,
+        "energy_storage_count": 144,
+        "energy_storage_load_sum": 12642.9,
+        "energy_storage_load_count": 144
+    },
+    "明潭#1": {
+        "energy_storage_sum": 5992.6,
+        "energy_storage_count": 144,
+        "energy_storage_load_sum": 0,
+        "energy_storage_load_count": 144
+    },
+    "明潭#2": {
+        "energy_storage_sum": 6105.6,
+        "energy_storage_count": 144,
+        "energy_storage_load_sum": 5568.1,
+        "energy_storage_load_count": 144
+    },
+    "明潭#3": {
+        "energy_storage_sum": 6979.1,
+        "energy_storage_count": 144,
+        "energy_storage_load_sum": 9995.1,
+        "energy_storage_load_count": 144
+    },
+    "明潭#4": {
+        "energy_storage_sum": 4859.3,
+        "energy_storage_count": 144,
+        "energy_storage_load_sum": 13227.3,
+        "energy_storage_load_count": 144
+    },
+    "明潭#5": {
+        "energy_storage_sum": 3327.3,
+        "energy_storage_count": 144,
+        "energy_storage_load_sum": 12780.5,
+        "energy_storage_load_count": 144
+    },
+    "明潭#6": {
+        "energy_storage_sum": 5206.8,
+        "energy_storage_count": 144,
+        "energy_storage_load_sum": 0,
+        "energy_storage_load_count": 144
+    },
+    "電池(註16)": {
+        "energy_storage_sum": 8490.7,
+        "energy_storage_count": 144,
+        "energy_storage_load_sum": 10111,
+        "energy_storage_load_count": 144
+    }
+}
