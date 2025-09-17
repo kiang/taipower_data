@@ -1,0 +1,47 @@
+{
+    "timestamp": "2025-09-18 02:10",
+    "active_emergency_generators": [
+        {
+            "name": "興達#1(註15)",
+            "pattern": "興達#1",
+            "output": "207.4",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2025-09-18 02:10"
+        },
+        {
+            "name": "興達#2(註15)",
+            "pattern": "興達#2",
+            "output": "391.0",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2025-09-18 02:10"
+        },
+        {
+            "name": "興達#3(註12)",
+            "pattern": "興達#3",
+            "output": "365.1",
+            "percentage": "66.382%",
+            "status": "",
+            "timestamp": "2025-09-18 02:10"
+        },
+        {
+            "name": "興達#4(註12)",
+            "pattern": "興達#4",
+            "output": "508.6",
+            "percentage": "92.473%",
+            "status": "",
+            "timestamp": "2025-09-18 02:10"
+        },
+        {
+            "name": "大林#5",
+            "pattern": "大林#5",
+            "output": "188.6",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2025-09-18 02:10"
+        }
+    ],
+    "total_count": 5,
+    "created_at": "2025-09-18 02:22:04"
+}
