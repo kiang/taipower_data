@@ -68,25 +68,26 @@ function processTodayEnergyStorageData() {
                     $outputValue = floatval($currentOutput);
                 }
                 
-                // Only count if value is greater than 0
-                if ($outputValue > 0) {
-                    if (strpos($category, '儲能(Energy Storage System)') !== false) {
-                        if (!isset($dayData['units'][$unitName])) {
-                            $dayData['units'][$unitName] = [
-                                'energy_storage' => [],
-                                'energy_storage_load' => []
-                            ];
-                        }
-                        $dayData['units'][$unitName]['energy_storage'][] = $outputValue;
-                    } elseif (strpos($category, '儲能負載(Energy Storage Load)') !== false) {
-                        if (!isset($dayData['units'][$unitName])) {
-                            $dayData['units'][$unitName] = [
-                                'energy_storage' => [],
-                                'energy_storage_load' => []
-                            ];
-                        }
-                        $dayData['units'][$unitName]['energy_storage_load'][] = $outputValue;
+                // Energy Storage System: only count if value is greater than 0
+                if (strpos($category, '儲能(Energy Storage System)') !== false && $outputValue > 0) {
+                    if (!isset($dayData['units'][$unitName])) {
+                        $dayData['units'][$unitName] = [
+                            'energy_storage' => [],
+                            'energy_storage_load' => []
+                        ];
                     }
+                    $dayData['units'][$unitName]['energy_storage'][] = $outputValue;
+                } 
+                // Energy Storage Load: only count if value is less than 0 (negative values)
+                elseif (strpos($category, '儲能負載(Energy Storage Load)') !== false && $outputValue < 0) {
+                    if (!isset($dayData['units'][$unitName])) {
+                        $dayData['units'][$unitName] = [
+                            'energy_storage' => [],
+                            'energy_storage_load' => []
+                        ];
+                    }
+                    // Store as absolute value
+                    $dayData['units'][$unitName]['energy_storage_load'][] = abs($outputValue);
                 }
             }
             
