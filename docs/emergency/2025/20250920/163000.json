@@ -1,0 +1,23 @@
+{
+    "timestamp": "2025-09-20 16:30",
+    "active_emergency_generators": [
+        {
+            "name": "興達#3(註12)",
+            "pattern": "興達#3",
+            "output": "361.2",
+            "percentage": "65.673%",
+            "status": "",
+            "timestamp": "2025-09-20 16:30"
+        },
+        {
+            "name": "興達#4(註12)",
+            "pattern": "興達#4",
+            "output": "454.7",
+            "percentage": "82.673%",
+            "status": "",
+            "timestamp": "2025-09-20 16:30"
+        }
+    ],
+    "total_count": 2,
+    "created_at": "2025-09-20 16:42:03"
+}
