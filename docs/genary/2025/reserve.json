@@ -37,9 +37,9 @@
     },
     {
         "date": "2025-09-22",
-        "load_low": 37483,
-        "load_high": 39200,
-        "supply_predict": 44790,
-        "comment": "114.09.22(一)11:00更新"
+        "load_low": 37826,
+        "load_high": 38800,
+        "supply_predict": 42889,
+        "comment": "114.09.22(一)11:10更新"
     }
 ]
