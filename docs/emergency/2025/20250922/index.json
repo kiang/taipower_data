@@ -676,5 +676,17 @@
             "台中Gas3&amp;4"
         ],
         "count": 3
+    },
+    {
+        "time": "142000",
+        "generators": [
+            "興達#4(註12)",
+            "核二Gas1",
+            "核三Gas1",
+            "核三Gas2",
+            "台中Gas1&amp;2",
+            "台中Gas3&amp;4"
+        ],
+        "count": 6
     }
 ]
