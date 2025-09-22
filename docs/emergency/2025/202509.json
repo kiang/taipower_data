@@ -1709,17 +1709,18 @@
         {
             "date": "20250923",
             "formatted_date": "2025-09-23",
-            "events": 3,
+            "events": 4,
             "times": [
                 "000000",
                 "001000",
-                "002000"
+                "002000",
+                "003000"
             ],
-            "total_generators": 3,
+            "total_generators": 4,
             "unique_generators": [
                 "興達#4(註12)"
             ]
         }
     ],
-    "generated_at": "2025-09-23 00:32:04"
+    "generated_at": "2025-09-23 00:42:03"
 }
