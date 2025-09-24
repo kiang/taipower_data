@@ -2,7 +2,7 @@
     "year_month": "202509",
     "year": "2025",
     "month": "09",
-    "total_days": 13,
+    "total_days": 14,
     "dates": [
         {
             "date": "20250910",
@@ -2025,7 +2025,21 @@
                 "興達#3(註12)",
                 "興達#4(註12)"
             ]
+        },
+        {
+            "date": "20250925",
+            "formatted_date": "2025-09-25",
+            "events": 1,
+            "times": [
+                "000000"
+            ],
+            "total_generators": 3,
+            "unique_generators": [
+                "興達#2(註15)",
+                "興達#3(註12)",
+                "興達#4(註12)"
+            ]
         }
     ],
-    "generated_at": "2025-09-25 00:02:03"
+    "generated_at": "2025-09-25 00:12:03"
 }
