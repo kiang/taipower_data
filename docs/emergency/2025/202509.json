@@ -2756,18 +2756,19 @@
         {
             "date": "20250930",
             "formatted_date": "2025-09-30",
-            "events": 3,
+            "events": 4,
             "times": [
                 "181000",
                 "182000",
-                "183000"
+                "183000",
+                "184000"
             ],
-            "total_generators": 5,
+            "total_generators": 7,
             "unique_generators": [
                 "核二Gas1",
                 "核二Gas2"
             ]
         }
     ],
-    "generated_at": "2025-09-30 18:42:04"
+    "generated_at": "2025-09-30 18:52:04"
 }
