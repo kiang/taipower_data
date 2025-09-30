@@ -1,0 +1,26 @@
+{
+    "year_month": "202510",
+    "year": "2025",
+    "month": "10",
+    "total_days": 1,
+    "dates": [
+        {
+            "date": "20251001",
+            "formatted_date": "2025-10-01",
+            "events": 1,
+            "times": [
+                "000000"
+            ],
+            "total_generators": 6,
+            "unique_generators": [
+                "核二Gas1",
+                "核二Gas2",
+                "核三Gas1",
+                "核三Gas2",
+                "台中Gas1&amp;2",
+                "台中Gas3&amp;4"
+            ]
+        }
+    ],
+    "generated_at": "2025-10-01 00:12:04"
+}
