@@ -1,0 +1,47 @@
+{
+    "timestamp": "2025-10-01 21:30",
+    "active_emergency_generators": [
+        {
+            "name": "核二Gas1",
+            "pattern": "核二Gas1",
+            "output": "39.9",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2025-10-01 21:30"
+        },
+        {
+            "name": "核二Gas2",
+            "pattern": "核二Gas2",
+            "output": "39.5",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2025-10-01 21:30"
+        },
+        {
+            "name": "核三Gas1",
+            "pattern": "核三Gas1",
+            "output": "6.3",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2025-10-01 21:30"
+        },
+        {
+            "name": "核三Gas2",
+            "pattern": "核三Gas2",
+            "output": "4.9",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2025-10-01 21:30"
+        },
+        {
+            "name": "台中Gas1&amp;2",
+            "pattern": "台中Gas1&amp;2",
+            "output": "36.7",
+            "percentage": "26.214%",
+            "status": "",
+            "timestamp": "2025-10-01 21:30"
+        }
+    ],
+    "total_count": 5,
+    "created_at": "2025-10-01 21:42:04"
+}
