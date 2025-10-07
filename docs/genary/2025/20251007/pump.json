@@ -12,20 +12,20 @@
         "energy_storage_load_count": 40
     },
     "明潭#3": {
-        "energy_storage_sum": 3372.8,
-        "energy_storage_count": 19,
+        "energy_storage_sum": 3548.7,
+        "energy_storage_count": 20,
         "energy_storage_load_sum": 9212.6,
         "energy_storage_load_count": 36
     },
     "電池(註16)": {
-        "energy_storage_sum": 2342,
-        "energy_storage_count": 22,
+        "energy_storage_sum": 2789.7,
+        "energy_storage_count": 23,
         "energy_storage_load_sum": 10587.3,
         "energy_storage_load_count": 70
     },
     "明潭#5": {
-        "energy_storage_sum": 328.6,
-        "energy_storage_count": 2,
+        "energy_storage_sum": 471.2,
+        "energy_storage_count": 3,
         "energy_storage_load_sum": 11270.5,
         "energy_storage_load_count": 43
     },
@@ -60,8 +60,8 @@
         "energy_storage_load_count": 0
     },
     "大觀二#4": {
-        "energy_storage_sum": 1806.4,
-        "energy_storage_count": 11,
+        "energy_storage_sum": 1964.3,
+        "energy_storage_count": 12,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     }
