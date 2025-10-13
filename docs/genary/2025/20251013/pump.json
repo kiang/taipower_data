@@ -1,19 +1,19 @@
 {
     "大觀二#2": {
-        "energy_storage_sum": 3402,
-        "energy_storage_count": 22,
+        "energy_storage_sum": 3622.4,
+        "energy_storage_count": 23,
         "energy_storage_load_sum": 9373.4,
         "energy_storage_load_count": 40
     },
     "明潭#2": {
-        "energy_storage_sum": 1479.6,
-        "energy_storage_count": 9,
+        "energy_storage_sum": 1670.7,
+        "energy_storage_count": 10,
         "energy_storage_load_sum": 10330.7,
         "energy_storage_load_count": 40
     },
     "電池(註16)": {
-        "energy_storage_sum": 1472.5,
-        "energy_storage_count": 15,
+        "energy_storage_sum": 1861.5,
+        "energy_storage_count": 16,
         "energy_storage_load_sum": 12801.3,
         "energy_storage_load_count": 68
     },
@@ -24,8 +24,8 @@
         "energy_storage_load_count": 27
     },
     "明潭#3": {
-        "energy_storage_sum": 494.1,
-        "energy_storage_count": 3,
+        "energy_storage_sum": 683.8,
+        "energy_storage_count": 4,
         "energy_storage_load_sum": 10456.6,
         "energy_storage_load_count": 42
     },
@@ -36,15 +36,27 @@
         "energy_storage_load_count": 35
     },
     "明潭#4": {
-        "energy_storage_sum": 1145.6,
-        "energy_storage_count": 7,
+        "energy_storage_sum": 1332.3,
+        "energy_storage_count": 8,
         "energy_storage_load_sum": 7152,
         "energy_storage_load_count": 28
     },
     "大觀二#4": {
-        "energy_storage_sum": 1822.6,
-        "energy_storage_count": 11,
+        "energy_storage_sum": 2046.9,
+        "energy_storage_count": 12,
         "energy_storage_load_sum": 923.9,
         "energy_storage_load_count": 4
+    },
+    "明潭#1": {
+        "energy_storage_sum": 5.7,
+        "energy_storage_count": 1,
+        "energy_storage_load_sum": 0,
+        "energy_storage_load_count": 0
+    },
+    "明潭#6": {
+        "energy_storage_sum": 190,
+        "energy_storage_count": 1,
+        "energy_storage_load_sum": 0,
+        "energy_storage_load_count": 0
     }
 }
