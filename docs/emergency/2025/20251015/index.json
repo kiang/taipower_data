@@ -118,5 +118,13 @@
             "台中Gas3&amp;4"
         ],
         "count": 6
+    },
+    {
+        "time": "015000",
+        "generators": [
+            "核二Gas1",
+            "核二Gas2"
+        ],
+        "count": 2
     }
 ]
