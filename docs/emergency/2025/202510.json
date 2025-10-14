@@ -2,7 +2,7 @@
     "year_month": "202510",
     "year": "2025",
     "month": "10",
-    "total_days": 2,
+    "total_days": 3,
     "dates": [
         {
             "date": "20251001",
@@ -144,7 +144,24 @@
                 "台中Gas3&amp;4",
                 "核二Gas2"
             ]
+        },
+        {
+            "date": "20251015",
+            "formatted_date": "2025-10-15",
+            "events": 1,
+            "times": [
+                "001000"
+            ],
+            "total_generators": 6,
+            "unique_generators": [
+                "核二Gas1",
+                "核二Gas2",
+                "核三Gas1",
+                "核三Gas2",
+                "台中Gas1&amp;2",
+                "台中Gas3&amp;4"
+            ]
         }
     ],
-    "generated_at": "2025-10-15 00:12:04"
+    "generated_at": "2025-10-15 00:22:04"
 }
