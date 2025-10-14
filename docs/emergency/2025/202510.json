@@ -81,15 +81,20 @@
         {
             "date": "20251014",
             "formatted_date": "2025-10-14",
-            "events": 1,
+            "events": 2,
             "times": [
-                "154000"
+                "154000",
+                "155000"
             ],
-            "total_generators": 1,
+            "total_generators": 6,
             "unique_generators": [
-                "核二Gas1"
+                "核二Gas1",
+                "核三Gas1",
+                "核三Gas2",
+                "台中Gas1&amp;2",
+                "台中Gas3&amp;4"
             ]
         }
     ],
-    "generated_at": "2025-10-14 15:52:03"
+    "generated_at": "2025-10-14 16:02:04"
 }
