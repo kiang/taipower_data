@@ -222,5 +222,12 @@
             "核二Gas2"
         ],
         "count": 2
+    },
+    {
+        "time": "161000",
+        "generators": [
+            "核二Gas1"
+        ],
+        "count": 1
     }
 ]
