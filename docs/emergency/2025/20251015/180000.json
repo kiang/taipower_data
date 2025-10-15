@@ -1,0 +1,39 @@
+{
+    "timestamp": "2025-10-15 18:00",
+    "active_emergency_generators": [
+        {
+            "name": "核二Gas1",
+            "pattern": "核二Gas1",
+            "output": "39.8",
+            "percentage": "-",
+            "status": "測試運轉",
+            "timestamp": "2025-10-15 18:00"
+        },
+        {
+            "name": "核二Gas2",
+            "pattern": "核二Gas2",
+            "output": "40.0",
+            "percentage": "-",
+            "status": "測試運轉",
+            "timestamp": "2025-10-15 18:00"
+        },
+        {
+            "name": "核三Gas1",
+            "pattern": "核三Gas1",
+            "output": "36.0",
+            "percentage": "-",
+            "status": "測試運轉",
+            "timestamp": "2025-10-15 18:00"
+        },
+        {
+            "name": "核三Gas2",
+            "pattern": "核三Gas2",
+            "output": "35.8",
+            "percentage": "-",
+            "status": "測試運轉",
+            "timestamp": "2025-10-15 18:00"
+        }
+    ],
+    "total_count": 4,
+    "created_at": "2025-10-15 18:22:03"
+}
