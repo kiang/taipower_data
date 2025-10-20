@@ -202,16 +202,17 @@
         {
             "date": "20251020",
             "formatted_date": "2025-10-20",
-            "events": 2,
+            "events": 3,
             "times": [
                 "201000",
-                "202000"
+                "202000",
+                "203000"
             ],
-            "total_generators": 2,
+            "total_generators": 3,
             "unique_generators": [
                 "台中Gas1&amp;2"
             ]
         }
     ],
-    "generated_at": "2025-10-20 20:32:04"
+    "generated_at": "2025-10-20 20:42:04"
 }
