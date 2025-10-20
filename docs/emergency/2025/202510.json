@@ -2,7 +2,7 @@
     "year_month": "202510",
     "year": "2025",
     "month": "10",
-    "total_days": 3,
+    "total_days": 4,
     "dates": [
         {
             "date": "20251001",
@@ -198,7 +198,19 @@
                 "台中Gas1&amp;2",
                 "台中Gas3&amp;4"
             ]
+        },
+        {
+            "date": "20251020",
+            "formatted_date": "2025-10-20",
+            "events": 1,
+            "times": [
+                "201000"
+            ],
+            "total_generators": 1,
+            "unique_generators": [
+                "台中Gas1&amp;2"
+            ]
         }
     ],
-    "generated_at": "2025-10-15 18:52:04"
+    "generated_at": "2025-10-20 20:22:04"
 }
