@@ -5,5 +5,12 @@
             "台中Gas1&amp;2"
         ],
         "count": 1
+    },
+    {
+        "time": "202000",
+        "generators": [
+            "台中Gas1&amp;2"
+        ],
+        "count": 1
     }
 ]
