@@ -1,0 +1,15 @@
+{
+    "timestamp": "2025-10-20 20:40",
+    "active_emergency_generators": [
+        {
+            "name": "台中Gas1&amp;2",
+            "pattern": "台中Gas1&amp;2",
+            "output": "110.5",
+            "percentage": "78.926%",
+            "status": "",
+            "timestamp": "2025-10-20 20:40"
+        }
+    ],
+    "total_count": 1,
+    "created_at": "2025-10-20 20:52:04"
+}
