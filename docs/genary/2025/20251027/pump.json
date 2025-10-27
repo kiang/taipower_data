@@ -6,14 +6,14 @@
         "energy_storage_load_count": 0
     },
     "明潭#3": {
-        "energy_storage_sum": 6738.8,
-        "energy_storage_count": 38,
+        "energy_storage_sum": 6916.7,
+        "energy_storage_count": 39,
         "energy_storage_load_sum": 1012,
         "energy_storage_load_count": 5
     },
     "明潭#4": {
-        "energy_storage_sum": 10589.1,
-        "energy_storage_count": 64,
+        "energy_storage_sum": 10741.1,
+        "energy_storage_count": 65,
         "energy_storage_load_sum": 10912.6,
         "energy_storage_load_count": 42
     },
@@ -36,8 +36,8 @@
         "energy_storage_load_count": 55
     },
     "大觀二#1": {
-        "energy_storage_sum": 10036.7,
-        "energy_storage_count": 59,
+        "energy_storage_sum": 10197.7,
+        "energy_storage_count": 60,
         "energy_storage_load_sum": 10524.8,
         "energy_storage_load_count": 45
     },
