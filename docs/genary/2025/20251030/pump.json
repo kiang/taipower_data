@@ -14,12 +14,12 @@
     "明潭#4": {
         "energy_storage_sum": 811.8,
         "energy_storage_count": 5,
-        "energy_storage_load_sum": 12691.7,
-        "energy_storage_load_count": 49
+        "energy_storage_load_sum": 12948,
+        "energy_storage_load_count": 50
     },
     "電池(註16)": {
-        "energy_storage_sum": 439.6,
-        "energy_storage_count": 15,
+        "energy_storage_sum": 479.9,
+        "energy_storage_count": 16,
         "energy_storage_load_sum": 11474.1,
         "energy_storage_load_count": 66
     },
