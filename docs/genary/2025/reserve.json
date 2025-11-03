@@ -461,15 +461,15 @@
         "load_high": 31850.2,
         "supply_predict": 40076.4,
         "comment": "114.11.03(一)23:50更新",
-        "real_load": 27856.4,
-        "real_supply": 32354,
-        "real_reserve_cap": 16.15
+        "real_load": 31850.2,
+        "real_supply": 40076.4,
+        "real_reserve_cap": 25.83
     },
     {
         "date": "2025-11-04",
-        "load_low": 25372,
+        "load_low": 24909,
         "load_high": 32400,
-        "supply_predict": 40000,
-        "comment": "114.11.04(二)00:20更新"
+        "supply_predict": 40004,
+        "comment": "114.11.04(二)00:30更新"
     }
 ]
