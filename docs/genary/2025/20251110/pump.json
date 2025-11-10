@@ -12,16 +12,16 @@
         "energy_storage_load_count": 28
     },
     "電池(註16)": {
-        "energy_storage_sum": 5081,
-        "energy_storage_count": 24,
+        "energy_storage_sum": 5466.7,
+        "energy_storage_count": 25,
         "energy_storage_load_sum": 11175,
         "energy_storage_load_count": 63
     },
     "明潭#3": {
         "energy_storage_sum": 0,
         "energy_storage_count": 0,
-        "energy_storage_load_sum": 15507.5,
-        "energy_storage_load_count": 62
+        "energy_storage_load_sum": 15762.8,
+        "energy_storage_load_count": 63
     },
     "大觀二#2": {
         "energy_storage_sum": 0,
