@@ -1,0 +1,21 @@
+{
+    "year_month": "202511",
+    "year": "2025",
+    "month": "11",
+    "total_days": 1,
+    "dates": [
+        {
+            "date": "20251111",
+            "formatted_date": "2025-11-11",
+            "events": 1,
+            "times": [
+                "093000"
+            ],
+            "total_generators": 1,
+            "unique_generators": [
+                "核三Gas1"
+            ]
+        }
+    ],
+    "generated_at": "2025-11-11 09:42:03"
+}
