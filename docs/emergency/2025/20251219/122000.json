@@ -1,0 +1,23 @@
+{
+    "timestamp": "2025-12-19 12:20",
+    "active_emergency_generators": [
+        {
+            "name": "核二Gas1",
+            "pattern": "核二Gas1",
+            "output": "40.2",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2025-12-19 12:20"
+        },
+        {
+            "name": "核二Gas2",
+            "pattern": "核二Gas2",
+            "output": "40.6",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2025-12-19 12:20"
+        }
+    ],
+    "total_count": 2,
+    "created_at": "2025-12-19 12:42:03"
+}
