@@ -26,14 +26,14 @@
     "電池(註16)": {
         "energy_storage_sum": 89.3,
         "energy_storage_count": 6,
-        "energy_storage_load_sum": 850.1,
-        "energy_storage_load_count": 39
+        "energy_storage_load_sum": 859.1,
+        "energy_storage_load_count": 40
     },
     "明潭#2": {
         "energy_storage_sum": 0,
         "energy_storage_count": 0,
-        "energy_storage_load_sum": 8169.6,
-        "energy_storage_load_count": 31
+        "energy_storage_load_sum": 8432.3,
+        "energy_storage_load_count": 32
     },
     "明潭#3": {
         "energy_storage_sum": 0,
