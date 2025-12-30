@@ -75,7 +75,7 @@
         {
             "date": "20251230",
             "formatted_date": "2025-12-30",
-            "events": 14,
+            "events": 15,
             "times": [
                 "142000",
                 "143000",
@@ -90,13 +90,14 @@
                 "160000",
                 "161000",
                 "162000",
-                "163000"
+                "163000",
+                "164000"
             ],
-            "total_generators": 14,
+            "total_generators": 15,
             "unique_generators": [
                 "核三Gas1"
             ]
         }
     ],
-    "generated_at": "2025-12-30 16:42:03"
+    "generated_at": "2025-12-30 16:52:04"
 }
