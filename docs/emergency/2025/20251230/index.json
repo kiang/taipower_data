@@ -147,5 +147,13 @@
             "核三Gas1"
         ],
         "count": 2
+    },
+    {
+        "time": "175000",
+        "generators": [
+            "核二Gas1",
+            "核三Gas1"
+        ],
+        "count": 2
     }
 ]
