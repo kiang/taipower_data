@@ -135,7 +135,7 @@
         {
             "date": "20251231",
             "formatted_date": "2025-12-31",
-            "events": 33,
+            "events": 34,
             "times": [
                 "141000",
                 "142000",
@@ -169,14 +169,15 @@
                 "190000",
                 "191000",
                 "192000",
-                "193000"
+                "193000",
+                "194000"
             ],
-            "total_generators": 34,
+            "total_generators": 35,
             "unique_generators": [
                 "核三Gas2",
                 "台中Gas3&amp;4"
             ]
         }
     ],
-    "generated_at": "2025-12-31 19:42:03"
+    "generated_at": "2025-12-31 19:52:03"
 }
