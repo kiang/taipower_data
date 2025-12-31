@@ -90,5 +90,12 @@
             "核三Gas2"
         ],
         "count": 1
+    },
+    {
+        "time": "162000",
+        "generators": [
+            "核三Gas2"
+        ],
+        "count": 1
     }
 ]
