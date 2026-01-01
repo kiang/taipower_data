@@ -1,0 +1,95 @@
+{
+    "timestamp": "2026-01-01 22:40",
+    "active_emergency_generators": [
+        {
+            "name": "興達#1(註15)",
+            "pattern": "興達#1",
+            "output": "1.0",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2026-01-01 22:40"
+        },
+        {
+            "name": "興達#2(註15)",
+            "pattern": "興達#2",
+            "output": "1.0",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2026-01-01 22:40"
+        },
+        {
+            "name": "興達#3(註15)",
+            "pattern": "興達#3",
+            "output": "1.0",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2026-01-01 22:40"
+        },
+        {
+            "name": "興達#4(註12)",
+            "pattern": "興達#4",
+            "output": "1.0",
+            "percentage": "0.182%",
+            "status": "",
+            "timestamp": "2026-01-01 22:40"
+        },
+        {
+            "name": "大林#5",
+            "pattern": "大林#5",
+            "output": "1.0",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2026-01-01 22:40"
+        },
+        {
+            "name": "核二Gas1",
+            "pattern": "核二Gas1",
+            "output": "1.0",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2026-01-01 22:40"
+        },
+        {
+            "name": "核二Gas2",
+            "pattern": "核二Gas2",
+            "output": "1.0",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2026-01-01 22:40"
+        },
+        {
+            "name": "核三Gas1",
+            "pattern": "核三Gas1",
+            "output": "1.0",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2026-01-01 22:40"
+        },
+        {
+            "name": "核三Gas2",
+            "pattern": "核三Gas2",
+            "output": "1.0",
+            "percentage": "-",
+            "status": "",
+            "timestamp": "2026-01-01 22:40"
+        },
+        {
+            "name": "台中Gas1&amp;2",
+            "pattern": "台中Gas1&amp;2",
+            "output": "1.0",
+            "percentage": "0.714%",
+            "status": "",
+            "timestamp": "2026-01-01 22:40"
+        },
+        {
+            "name": "台中Gas3&amp;4",
+            "pattern": "台中Gas3&amp;4",
+            "output": "1.0",
+            "percentage": "0.714%",
+            "status": "",
+            "timestamp": "2026-01-01 22:40"
+        }
+    ],
+    "total_count": 11,
+    "created_at": "2026-01-01 22:52:04"
+}

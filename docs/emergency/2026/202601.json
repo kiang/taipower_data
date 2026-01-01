@@ -1,0 +1,31 @@
+{
+    "year_month": "202601",
+    "year": "2026",
+    "month": "01",
+    "total_days": 1,
+    "dates": [
+        {
+            "date": "20260101",
+            "formatted_date": "2026-01-01",
+            "events": 1,
+            "times": [
+                "224000"
+            ],
+            "total_generators": 11,
+            "unique_generators": [
+                "興達#1(註15)",
+                "興達#2(註15)",
+                "興達#3(註15)",
+                "興達#4(註12)",
+                "大林#5",
+                "核二Gas1",
+                "核二Gas2",
+                "核三Gas1",
+                "核三Gas2",
+                "台中Gas1&amp;2",
+                "台中Gas3&amp;4"
+            ]
+        }
+    ],
+    "generated_at": "2026-01-01 22:52:04"
+}
