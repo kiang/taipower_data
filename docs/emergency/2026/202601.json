@@ -7,11 +7,12 @@
         {
             "date": "20260101",
             "formatted_date": "2026-01-01",
-            "events": 1,
+            "events": 2,
             "times": [
+                "224000",
                 "224000"
             ],
-            "total_generators": 11,
+            "total_generators": 22,
             "unique_generators": [
                 "興達#1(註15)",
                 "興達#2(註15)",
@@ -27,5 +28,5 @@
             ]
         }
     ],
-    "generated_at": "2026-01-01 22:52:04"
+    "generated_at": "2026-01-01 23:02:04"
 }
