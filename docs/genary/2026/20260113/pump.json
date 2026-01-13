@@ -6,20 +6,20 @@
         "energy_storage_load_count": 59
     },
     "明潭#3": {
-        "energy_storage_sum": 5207.3,
-        "energy_storage_count": 29,
+        "energy_storage_sum": 5400,
+        "energy_storage_count": 30,
         "energy_storage_load_sum": 19433,
         "energy_storage_load_count": 76
     },
     "明潭#4": {
-        "energy_storage_sum": 7467,
-        "energy_storage_count": 45,
+        "energy_storage_sum": 7634.8,
+        "energy_storage_count": 46,
         "energy_storage_load_sum": 11849.4,
         "energy_storage_load_count": 46
     },
     "電池(註16)": {
-        "energy_storage_sum": 9244.3,
-        "energy_storage_count": 48,
+        "energy_storage_sum": 9552.4,
+        "energy_storage_count": 49,
         "energy_storage_load_sum": 11671.6,
         "energy_storage_load_count": 75
     },
@@ -30,16 +30,16 @@
         "energy_storage_load_count": 0
     },
     "大觀二#2": {
-        "energy_storage_sum": 5925.4,
-        "energy_storage_count": 33,
+        "energy_storage_sum": 6088.2,
+        "energy_storage_count": 34,
         "energy_storage_load_sum": 8562.6,
         "energy_storage_load_count": 36
     },
     "大觀二#4": {
         "energy_storage_sum": 7017.3,
         "energy_storage_count": 43,
-        "energy_storage_load_sum": 8016.7,
-        "energy_storage_load_count": 35
+        "energy_storage_load_sum": 8019.2,
+        "energy_storage_load_count": 36
     },
     "大觀二#3": {
         "energy_storage_sum": 2257.3,
@@ -48,14 +48,14 @@
         "energy_storage_load_count": 48
     },
     "明潭#1": {
-        "energy_storage_sum": 4877.3,
-        "energy_storage_count": 27,
+        "energy_storage_sum": 5073.1,
+        "energy_storage_count": 28,
         "energy_storage_load_sum": 3567.7,
         "energy_storage_load_count": 15
     },
     "明潭#6": {
-        "energy_storage_sum": 3357.6,
-        "energy_storage_count": 20,
+        "energy_storage_sum": 3527.5,
+        "energy_storage_count": 21,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     }
