@@ -33,7 +33,7 @@
         {
             "date": "20260120",
             "formatted_date": "2026-01-20",
-            "events": 18,
+            "events": 19,
             "times": [
                 "092000",
                 "093000",
@@ -52,13 +52,14 @@
                 "114000",
                 "115000",
                 "120000",
-                "121000"
+                "121000",
+                "122000"
             ],
-            "total_generators": 18,
+            "total_generators": 19,
             "unique_generators": [
                 "核二Gas1"
             ]
         }
     ],
-    "generated_at": "2026-01-20 12:22:03"
+    "generated_at": "2026-01-20 12:32:04"
 }
