@@ -100,15 +100,16 @@
         {
             "date": "20260121",
             "formatted_date": "2026-01-21",
-            "events": 1,
+            "events": 2,
             "times": [
-                "173000"
+                "173000",
+                "174000"
             ],
-            "total_generators": 1,
+            "total_generators": 2,
             "unique_generators": [
                 "台中Gas1&amp;2"
             ]
         }
     ],
-    "generated_at": "2026-01-21 17:42:03"
+    "generated_at": "2026-01-21 17:52:03"
 }
