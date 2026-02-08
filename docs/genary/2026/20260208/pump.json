@@ -1,13 +1,13 @@
 {
     "大觀二#1": {
-        "energy_storage_sum": 5234.6,
-        "energy_storage_count": 35,
+        "energy_storage_sum": 5387.5,
+        "energy_storage_count": 36,
         "energy_storage_load_sum": 8914.2,
         "energy_storage_load_count": 37
     },
     "大觀二#2": {
-        "energy_storage_sum": 4162.9,
-        "energy_storage_count": 27,
+        "energy_storage_sum": 4317.3,
+        "energy_storage_count": 28,
         "energy_storage_load_sum": 12850.5,
         "energy_storage_load_count": 52
     },
@@ -18,38 +18,38 @@
         "energy_storage_load_count": 53
     },
     "明潭#1": {
-        "energy_storage_sum": 4711,
-        "energy_storage_count": 27,
+        "energy_storage_sum": 4881.9,
+        "energy_storage_count": 28,
         "energy_storage_load_sum": 6231.9,
         "energy_storage_load_count": 24
     },
     "明潭#2": {
-        "energy_storage_sum": 4601.5,
-        "energy_storage_count": 30,
+        "energy_storage_sum": 4743.8,
+        "energy_storage_count": 31,
         "energy_storage_load_sum": 6378.3,
         "energy_storage_load_count": 25
     },
     "明潭#3": {
-        "energy_storage_sum": 5781.9,
-        "energy_storage_count": 33,
+        "energy_storage_sum": 5957.5,
+        "energy_storage_count": 34,
         "energy_storage_load_sum": 8704.3,
         "energy_storage_load_count": 34
     },
     "明潭#4": {
-        "energy_storage_sum": 3754.3,
-        "energy_storage_count": 25,
+        "energy_storage_sum": 3895.9,
+        "energy_storage_count": 26,
         "energy_storage_load_sum": 8466.2,
         "energy_storage_load_count": 32
     },
     "電池(註16)": {
-        "energy_storage_sum": 7177.5,
-        "energy_storage_count": 37,
+        "energy_storage_sum": 7553,
+        "energy_storage_count": 38,
         "energy_storage_load_sum": 11485.5,
         "energy_storage_load_count": 81
     },
     "大觀二#4": {
-        "energy_storage_sum": 2715.8,
-        "energy_storage_count": 17,
+        "energy_storage_sum": 2865.9,
+        "energy_storage_count": 18,
         "energy_storage_load_sum": 9140.2,
         "energy_storage_load_count": 38
     }
