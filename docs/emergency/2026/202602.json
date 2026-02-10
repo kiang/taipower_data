@@ -7,15 +7,16 @@
         {
             "date": "20260211",
             "formatted_date": "2026-02-11",
-            "events": 1,
+            "events": 2,
             "times": [
-                "030000"
+                "030000",
+                "031000"
             ],
-            "total_generators": 1,
+            "total_generators": 2,
             "unique_generators": [
                 "台中Gas3&amp;4"
             ]
         }
     ],
-    "generated_at": "2026-02-11 03:12:04"
+    "generated_at": "2026-02-11 03:22:03"
 }
