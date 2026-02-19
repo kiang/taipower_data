@@ -34,5 +34,11 @@
         "energy_storage_count": 3,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
+    },
+    "大觀二#1": {
+        "energy_storage_sum": 6.3,
+        "energy_storage_count": 1,
+        "energy_storage_load_sum": 0,
+        "energy_storage_load_count": 0
     }
 }
