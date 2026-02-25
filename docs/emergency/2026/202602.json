@@ -32,19 +32,20 @@
         {
             "date": "20260225",
             "formatted_date": "2026-02-25",
-            "events": 5,
+            "events": 6,
             "times": [
                 "172000",
                 "173000",
                 "174000",
                 "175000",
-                "180000"
+                "180000",
+                "181000"
             ],
-            "total_generators": 5,
+            "total_generators": 6,
             "unique_generators": [
                 "台中Gas3&amp;4"
             ]
         }
     ],
-    "generated_at": "2026-02-25 18:12:03"
+    "generated_at": "2026-02-25 18:22:04"
 }
