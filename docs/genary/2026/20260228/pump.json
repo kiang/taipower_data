@@ -1,49 +1,49 @@
 {
     "大觀二#1": {
-        "energy_storage_sum": 9051.6,
-        "energy_storage_count": 56,
+        "energy_storage_sum": 9242.2,
+        "energy_storage_count": 57,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "大觀二#2": {
-        "energy_storage_sum": 2531.8,
-        "energy_storage_count": 16,
+        "energy_storage_sum": 2731.9,
+        "energy_storage_count": 17,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "明潭#2": {
-        "energy_storage_sum": 4938,
-        "energy_storage_count": 31,
+        "energy_storage_sum": 5111.6,
+        "energy_storage_count": 32,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "明潭#4": {
-        "energy_storage_sum": 8931.3,
-        "energy_storage_count": 57,
+        "energy_storage_sum": 9104.2,
+        "energy_storage_count": 58,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "電池(註16)": {
-        "energy_storage_sum": 10138.4,
-        "energy_storage_count": 57,
+        "energy_storage_sum": 10154.7,
+        "energy_storage_count": 58,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "明潭#3": {
-        "energy_storage_sum": 7115.2,
-        "energy_storage_count": 39,
+        "energy_storage_sum": 7297.8,
+        "energy_storage_count": 40,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "明潭#1": {
-        "energy_storage_sum": 6662.3,
-        "energy_storage_count": 36,
+        "energy_storage_sum": 6842.6,
+        "energy_storage_count": 37,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "大觀二#4": {
-        "energy_storage_sum": 5959.2,
-        "energy_storage_count": 35,
+        "energy_storage_sum": 6155.4,
+        "energy_storage_count": 36,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     }
