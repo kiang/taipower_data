@@ -1,49 +1,49 @@
 {
     "明潭#3": {
-        "energy_storage_sum": 8733.9,
-        "energy_storage_count": 50,
+        "energy_storage_sum": 8910.8,
+        "energy_storage_count": 51,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "電池(註16)": {
-        "energy_storage_sum": 7429.7,
-        "energy_storage_count": 47,
+        "energy_storage_sum": 7835,
+        "energy_storage_count": 48,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "大觀二#1": {
-        "energy_storage_sum": 7129.7,
-        "energy_storage_count": 44,
+        "energy_storage_sum": 7270.3,
+        "energy_storage_count": 45,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "大觀二#4": {
-        "energy_storage_sum": 5353.8,
-        "energy_storage_count": 32,
+        "energy_storage_sum": 5506.7,
+        "energy_storage_count": 33,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "明潭#2": {
-        "energy_storage_sum": 4142,
-        "energy_storage_count": 26,
+        "energy_storage_sum": 4287,
+        "energy_storage_count": 27,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "明潭#4": {
-        "energy_storage_sum": 3714.8,
-        "energy_storage_count": 23,
+        "energy_storage_sum": 3865.2,
+        "energy_storage_count": 24,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "大觀二#3": {
-        "energy_storage_sum": 1908.5,
-        "energy_storage_count": 10,
+        "energy_storage_sum": 2051.3,
+        "energy_storage_count": 11,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "明潭#6": {
-        "energy_storage_sum": 989.6,
-        "energy_storage_count": 6,
+        "energy_storage_sum": 1135.9,
+        "energy_storage_count": 7,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     }
