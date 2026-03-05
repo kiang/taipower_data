@@ -1,7 +1,7 @@
 {
     "明潭#3": {
-        "energy_storage_sum": 4386.4,
-        "energy_storage_count": 25,
+        "energy_storage_sum": 4567.7,
+        "energy_storage_count": 26,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
@@ -24,8 +24,8 @@
         "energy_storage_load_count": 0
     },
     "明潭#2": {
-        "energy_storage_sum": 1499.5,
-        "energy_storage_count": 10,
+        "energy_storage_sum": 1641.8,
+        "energy_storage_count": 11,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     }
