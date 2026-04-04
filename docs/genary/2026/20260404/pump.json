@@ -1,7 +1,7 @@
 {
     "大觀二#4": {
-        "energy_storage_sum": 1746,
-        "energy_storage_count": 11,
+        "energy_storage_sum": 1886.3,
+        "energy_storage_count": 12,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
@@ -24,8 +24,8 @@
         "energy_storage_load_count": 0
     },
     "大觀二#3": {
-        "energy_storage_sum": 302,
-        "energy_storage_count": 2,
+        "energy_storage_sum": 460.2,
+        "energy_storage_count": 3,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     }
