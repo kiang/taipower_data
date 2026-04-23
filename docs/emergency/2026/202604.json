@@ -28,15 +28,16 @@
         {
             "date": "20260423",
             "formatted_date": "2026-04-23",
-            "events": 1,
+            "events": 2,
             "times": [
-                "144000"
+                "144000",
+                "145000"
             ],
-            "total_generators": 1,
+            "total_generators": 2,
             "unique_generators": [
                 "興達#4(註12)"
             ]
         }
     ],
-    "generated_at": "2026-04-23 14:52:04"
+    "generated_at": "2026-04-23 15:02:04"
 }
