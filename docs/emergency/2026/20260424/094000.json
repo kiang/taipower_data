@@ -1,0 +1,23 @@
+{
+    "timestamp": "2026-04-24 09:40",
+    "active_emergency_generators": [
+        {
+            "name": "興達#4(註12)",
+            "pattern": "興達#4",
+            "output": "305.4",
+            "percentage": "55.527%",
+            "status": "定期測試",
+            "timestamp": "2026-04-24 09:40"
+        },
+        {
+            "name": "台中Gas1&amp;2",
+            "pattern": "台中Gas1&amp;2",
+            "output": "19.2",
+            "percentage": "13.714%",
+            "status": "部分檢修",
+            "timestamp": "2026-04-24 09:40"
+        }
+    ],
+    "total_count": 2,
+    "created_at": "2026-04-24 09:52:04"
+}
