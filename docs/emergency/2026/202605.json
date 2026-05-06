@@ -7,7 +7,7 @@
         {
             "date": "20260506",
             "formatted_date": "2026-05-06",
-            "events": 7,
+            "events": 8,
             "times": [
                 "150000",
                 "151000",
@@ -15,13 +15,14 @@
                 "173000",
                 "174000",
                 "175000",
-                "180000"
+                "180000",
+                "181000"
             ],
-            "total_generators": 7,
+            "total_generators": 8,
             "unique_generators": [
                 "興達#3(註15)"
             ]
         }
     ],
-    "generated_at": "2026-05-06 18:12:04"
+    "generated_at": "2026-05-06 18:22:04"
 }
