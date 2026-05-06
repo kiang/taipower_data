@@ -60,16 +60,17 @@
         {
             "date": "20260507",
             "formatted_date": "2026-05-07",
-            "events": 2,
+            "events": 3,
             "times": [
                 "000000",
-                "001000"
+                "001000",
+                "002000"
             ],
-            "total_generators": 2,
+            "total_generators": 3,
             "unique_generators": [
                 "興達#3(註15)"
             ]
         }
     ],
-    "generated_at": "2026-05-07 00:22:03"
+    "generated_at": "2026-05-07 00:32:04"
 }
