@@ -1,0 +1,21 @@
+{
+    "year_month": "202605",
+    "year": "2026",
+    "month": "05",
+    "total_days": 1,
+    "dates": [
+        {
+            "date": "20260506",
+            "formatted_date": "2026-05-06",
+            "events": 1,
+            "times": [
+                "150000"
+            ],
+            "total_generators": 1,
+            "unique_generators": [
+                "興達#3(註15)"
+            ]
+        }
+    ],
+    "generated_at": "2026-05-06 15:12:03"
+}
