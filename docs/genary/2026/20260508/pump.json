@@ -1,13 +1,13 @@
 {
     "明潭#2": {
-        "energy_storage_sum": 8392.5,
-        "energy_storage_count": 57,
+        "energy_storage_sum": 8541.2,
+        "energy_storage_count": 58,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "明潭#3": {
-        "energy_storage_sum": 6178.6,
-        "energy_storage_count": 35,
+        "energy_storage_sum": 6351.5,
+        "energy_storage_count": 36,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
@@ -18,14 +18,14 @@
         "energy_storage_load_count": 0
     },
     "大觀二#4": {
-        "energy_storage_sum": 3165.2,
-        "energy_storage_count": 21,
+        "energy_storage_sum": 3324.1,
+        "energy_storage_count": 22,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "大觀二#1": {
-        "energy_storage_sum": 5957.5,
-        "energy_storage_count": 41,
+        "energy_storage_sum": 6116.4,
+        "energy_storage_count": 42,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
@@ -36,8 +36,8 @@
         "energy_storage_load_count": 0
     },
     "明潭#1": {
-        "energy_storage_sum": 6524.1,
-        "energy_storage_count": 37,
+        "energy_storage_sum": 6700.7,
+        "energy_storage_count": 38,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     }
