@@ -2,7 +2,7 @@
     "year_month": "202605",
     "year": "2026",
     "month": "05",
-    "total_days": 3,
+    "total_days": 4,
     "dates": [
         {
             "date": "20260506",
@@ -212,7 +212,19 @@
             "unique_generators": [
                 "台中Gas1&amp;2"
             ]
+        },
+        {
+            "date": "20260527",
+            "formatted_date": "2026-05-27",
+            "events": 1,
+            "times": [
+                "172000"
+            ],
+            "total_generators": 1,
+            "unique_generators": [
+                "核二Gas1"
+            ]
         }
     ],
-    "generated_at": "2026-05-20 14:32:03"
+    "generated_at": "2026-05-27 17:32:04"
 }
