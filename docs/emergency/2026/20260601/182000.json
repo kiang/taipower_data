@@ -1,0 +1,23 @@
+{
+    "timestamp": "2026-06-01 18:20",
+    "active_emergency_generators": [
+        {
+            "name": "核二Gas1",
+            "pattern": "核二Gas1",
+            "output": "39.8",
+            "percentage": "-",
+            "status": "定期測試",
+            "timestamp": "2026-06-01 18:20"
+        },
+        {
+            "name": "核三Gas1",
+            "pattern": "核三Gas1",
+            "output": "5.9",
+            "percentage": "-",
+            "status": "歲修",
+            "timestamp": "2026-06-01 18:20"
+        }
+    ],
+    "total_count": 2,
+    "created_at": "2026-06-01 18:32:04"
+}
