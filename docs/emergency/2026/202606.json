@@ -7,20 +7,21 @@
         {
             "date": "20260601",
             "formatted_date": "2026-06-01",
-            "events": 5,
+            "events": 6,
             "times": [
                 "142000",
                 "143000",
                 "144000",
                 "145000",
-                "172000"
+                "172000",
+                "173000"
             ],
-            "total_generators": 5,
+            "total_generators": 6,
             "unique_generators": [
                 "核三Gas1",
                 "核二Gas1"
             ]
         }
     ],
-    "generated_at": "2026-06-01 17:32:04"
+    "generated_at": "2026-06-01 17:42:04"
 }
