@@ -1,0 +1,21 @@
+{
+    "year_month": "202606",
+    "year": "2026",
+    "month": "06",
+    "total_days": 1,
+    "dates": [
+        {
+            "date": "20260601",
+            "formatted_date": "2026-06-01",
+            "events": 1,
+            "times": [
+                "142000"
+            ],
+            "total_generators": 1,
+            "unique_generators": [
+                "核三Gas1"
+            ]
+        }
+    ],
+    "generated_at": "2026-06-01 14:32:06"
+}
