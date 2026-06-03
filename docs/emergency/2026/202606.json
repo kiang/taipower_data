@@ -2,7 +2,7 @@
     "year_month": "202606",
     "year": "2026",
     "month": "06",
-    "total_days": 3,
+    "total_days": 4,
     "dates": [
         {
             "date": "20260601",
@@ -115,7 +115,19 @@
                 "核二Gas1",
                 "興達#2(註15)"
             ]
+        },
+        {
+            "date": "20260604",
+            "formatted_date": "2026-06-04",
+            "events": 1,
+            "times": [
+                "000000"
+            ],
+            "total_generators": 1,
+            "unique_generators": [
+                "興達#2(註15)"
+            ]
         }
     ],
-    "generated_at": "2026-06-04 00:02:04"
+    "generated_at": "2026-06-04 00:12:04"
 }
