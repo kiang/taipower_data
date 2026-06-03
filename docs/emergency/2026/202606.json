@@ -119,16 +119,17 @@
         {
             "date": "20260604",
             "formatted_date": "2026-06-04",
-            "events": 2,
+            "events": 3,
             "times": [
                 "000000",
-                "001000"
+                "001000",
+                "002000"
             ],
-            "total_generators": 2,
+            "total_generators": 3,
             "unique_generators": [
                 "興達#2(註15)"
             ]
         }
     ],
-    "generated_at": "2026-06-04 00:22:03"
+    "generated_at": "2026-06-04 00:32:04"
 }
