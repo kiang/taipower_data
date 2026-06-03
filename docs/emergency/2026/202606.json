@@ -82,21 +82,22 @@
         {
             "date": "20260603",
             "formatted_date": "2026-06-03",
-            "events": 6,
+            "events": 7,
             "times": [
                 "172000",
                 "173000",
                 "174000",
                 "175000",
                 "180000",
-                "181000"
+                "181000",
+                "182000"
             ],
-            "total_generators": 10,
+            "total_generators": 12,
             "unique_generators": [
                 "核二Gas1",
                 "興達#2(註15)"
             ]
         }
     ],
-    "generated_at": "2026-06-03 18:22:04"
+    "generated_at": "2026-06-03 18:32:04"
 }
