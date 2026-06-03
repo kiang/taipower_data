@@ -1,0 +1,15 @@
+{
+    "timestamp": "2026-06-04 06:00",
+    "active_emergency_generators": [
+        {
+            "name": "興達#2(註15)",
+            "pattern": "興達#2",
+            "output": "246.7",
+            "percentage": "-",
+            "status": "測試運轉",
+            "timestamp": "2026-06-04 06:00"
+        }
+    ],
+    "total_count": 1,
+    "created_at": "2026-06-04 06:12:04"
+}
