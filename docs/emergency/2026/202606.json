@@ -274,7 +274,7 @@
         {
             "date": "20260608",
             "formatted_date": "2026-06-08",
-            "events": 22,
+            "events": 23,
             "times": [
                 "102000",
                 "111000",
@@ -297,13 +297,14 @@
                 "140000",
                 "141000",
                 "142000",
-                "143000"
+                "143000",
+                "144000"
             ],
-            "total_generators": 22,
+            "total_generators": 23,
             "unique_generators": [
                 "台中Gas3&amp;4"
             ]
         }
     ],
-    "generated_at": "2026-06-08 14:42:04"
+    "generated_at": "2026-06-08 14:52:04"
 }
