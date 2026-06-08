@@ -274,20 +274,21 @@
         {
             "date": "20260608",
             "formatted_date": "2026-06-08",
-            "events": 6,
+            "events": 7,
             "times": [
                 "102000",
                 "111000",
                 "112000",
                 "113000",
                 "114000",
-                "115000"
+                "115000",
+                "120000"
             ],
-            "total_generators": 6,
+            "total_generators": 7,
             "unique_generators": [
                 "台中Gas3&amp;4"
             ]
         }
     ],
-    "generated_at": "2026-06-08 12:02:03"
+    "generated_at": "2026-06-08 12:12:04"
 }
