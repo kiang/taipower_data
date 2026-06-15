@@ -308,15 +308,16 @@
         {
             "date": "20260615",
             "formatted_date": "2026-06-15",
-            "events": 1,
+            "events": 2,
             "times": [
-                "172000"
+                "172000",
+                "173000"
             ],
-            "total_generators": 1,
+            "total_generators": 2,
             "unique_generators": [
                 "核二Gas2"
             ]
         }
     ],
-    "generated_at": "2026-06-15 17:32:03"
+    "generated_at": "2026-06-15 17:42:04"
 }
