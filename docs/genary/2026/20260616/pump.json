@@ -1,7 +1,7 @@
 {
     "大觀二#2": {
-        "energy_storage_sum": 6305.2,
-        "energy_storage_count": 39,
+        "energy_storage_sum": 6443.7,
+        "energy_storage_count": 40,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
@@ -18,8 +18,8 @@
         "energy_storage_load_count": 0
     },
     "明潭#4": {
-        "energy_storage_sum": 8917.8,
-        "energy_storage_count": 52,
+        "energy_storage_sum": 9063.8,
+        "energy_storage_count": 53,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
