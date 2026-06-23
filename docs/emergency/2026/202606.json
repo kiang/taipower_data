@@ -377,7 +377,7 @@
         {
             "date": "20260623",
             "formatted_date": "2026-06-23",
-            "events": 16,
+            "events": 17,
             "times": [
                 "172000",
                 "173000",
@@ -394,14 +394,15 @@
                 "192000",
                 "193000",
                 "194000",
-                "195000"
+                "195000",
+                "200000"
             ],
-            "total_generators": 17,
+            "total_generators": 18,
             "unique_generators": [
                 "核二Gas1",
                 "台中Gas1&amp;2"
             ]
         }
     ],
-    "generated_at": "2026-06-23 20:02:04"
+    "generated_at": "2026-06-23 20:12:03"
 }
