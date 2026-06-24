@@ -2,7 +2,7 @@
     "year_month": "202606",
     "year": "2026",
     "month": "06",
-    "total_days": 9,
+    "total_days": 10,
     "dates": [
         {
             "date": "20260601",
@@ -467,7 +467,19 @@
             "unique_generators": [
                 "興達#1(註15)"
             ]
+        },
+        {
+            "date": "20260625",
+            "formatted_date": "2026-06-25",
+            "events": 1,
+            "times": [
+                "000000"
+            ],
+            "total_generators": 1,
+            "unique_generators": [
+                "興達#1(註15)"
+            ]
         }
     ],
-    "generated_at": "2026-06-25 00:02:03"
+    "generated_at": "2026-06-25 00:12:04"
 }
