@@ -1,13 +1,13 @@
 {
     "大觀二#2": {
-        "energy_storage_sum": 164.6,
-        "energy_storage_count": 1,
+        "energy_storage_sum": 324.2,
+        "energy_storage_count": 2,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "大觀二#3": {
-        "energy_storage_sum": 159.3,
-        "energy_storage_count": 1,
+        "energy_storage_sum": 325.3,
+        "energy_storage_count": 2,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     }
