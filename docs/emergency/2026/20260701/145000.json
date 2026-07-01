@@ -1,0 +1,15 @@
+{
+    "timestamp": "2026-07-01 14:50",
+    "active_emergency_generators": [
+        {
+            "name": "大林#5",
+            "pattern": "大林#5",
+            "output": "132.5",
+            "percentage": "26.500%",
+            "status": "定期測試",
+            "timestamp": "2026-07-01 14:50"
+        }
+    ],
+    "total_count": 1,
+    "created_at": "2026-07-01 15:02:03"
+}
