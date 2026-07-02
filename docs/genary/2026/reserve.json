@@ -1840,6 +1840,16 @@
         "load_low": 32361,
         "load_high": 40582.2,
         "supply_predict": 48799,
-        "comment": "115.07.02(四)23:50更新"
+        "comment": "115.07.02(四)23:50更新",
+        "real_load": 40146.5,
+        "real_supply": 48857.5,
+        "real_reserve_cap": 21.7
+    },
+    {
+        "date": "2026-07-03",
+        "load_low": 32224,
+        "load_high": 40600,
+        "supply_predict": 48610,
+        "comment": "115.07.03(五)00:00更新"
     }
 ]
