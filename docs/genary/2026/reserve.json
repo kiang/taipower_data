@@ -1838,8 +1838,8 @@
     {
         "date": "2026-07-02",
         "load_low": 37299,
-        "load_high": 41000,
-        "supply_predict": 48737,
-        "comment": "115.07.02(四)17:30更新"
+        "load_high": 40582.2,
+        "supply_predict": 48799,
+        "comment": "115.07.02(四)17:40更新"
     }
 ]
