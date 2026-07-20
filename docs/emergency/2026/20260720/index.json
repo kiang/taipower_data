@@ -30,5 +30,12 @@
             "台中Gas1&amp;2"
         ],
         "count": 2
+    },
+    {
+        "time": "180000",
+        "generators": [
+            "核二Gas2"
+        ],
+        "count": 1
     }
 ]
