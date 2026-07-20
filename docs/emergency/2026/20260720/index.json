@@ -128,5 +128,12 @@
             "核二Gas2"
         ],
         "count": 1
+    },
+    {
+        "time": "202000",
+        "generators": [
+            "核二Gas2"
+        ],
+        "count": 1
     }
 ]
