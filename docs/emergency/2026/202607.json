@@ -414,18 +414,19 @@
         {
             "date": "20260721",
             "formatted_date": "2026-07-21",
-            "events": 4,
+            "events": 5,
             "times": [
                 "172000",
                 "173000",
                 "174000",
-                "175000"
+                "175000",
+                "180000"
             ],
-            "total_generators": 4,
+            "total_generators": 5,
             "unique_generators": [
                 "核二Gas2"
             ]
         }
     ],
-    "generated_at": "2026-07-21 18:02:04"
+    "generated_at": "2026-07-21 18:12:03"
 }
