@@ -187,5 +187,12 @@
             "核二Gas2"
         ],
         "count": 1
+    },
+    {
+        "time": "145000",
+        "generators": [
+            "核二Gas2"
+        ],
+        "count": 1
     }
 ]
