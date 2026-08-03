@@ -7,7 +7,7 @@
         {
             "date": "20260803",
             "formatted_date": "2026-08-03",
-            "events": 15,
+            "events": 16,
             "times": [
                 "102000",
                 "103000",
@@ -23,13 +23,14 @@
                 "121000",
                 "122000",
                 "123000",
-                "124000"
+                "124000",
+                "125000"
             ],
-            "total_generators": 15,
+            "total_generators": 16,
             "unique_generators": [
                 "核二Gas2"
             ]
         }
     ],
-    "generated_at": "2026-08-03 12:52:03"
+    "generated_at": "2026-08-03 13:02:04"
 }
