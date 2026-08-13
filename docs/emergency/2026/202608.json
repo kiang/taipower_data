@@ -230,19 +230,20 @@
         {
             "date": "20260814",
             "formatted_date": "2026-08-14",
-            "events": 5,
+            "events": 6,
             "times": [
                 "000000",
                 "001000",
                 "002000",
                 "003000",
-                "003000"
+                "003000",
+                "005000"
             ],
-            "total_generators": 5,
+            "total_generators": 6,
             "unique_generators": [
                 "興達#3(註15)"
             ]
         }
     ],
-    "generated_at": "2026-08-14 00:52:04"
+    "generated_at": "2026-08-14 01:02:04"
 }
