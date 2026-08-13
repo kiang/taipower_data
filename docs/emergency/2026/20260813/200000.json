@@ -1,0 +1,23 @@
+{
+    "timestamp": "2026-08-13 20:00",
+    "active_emergency_generators": [
+        {
+            "name": "興達#3(註15)",
+            "pattern": "興達#3",
+            "output": "84.1",
+            "percentage": "-",
+            "status": "測試運轉",
+            "timestamp": "2026-08-13 20:00"
+        },
+        {
+            "name": "核二Gas2",
+            "pattern": "核二Gas2",
+            "output": "37.9",
+            "percentage": "-",
+            "status": "測試運轉",
+            "timestamp": "2026-08-13 20:00"
+        }
+    ],
+    "total_count": 2,
+    "created_at": "2026-08-13 20:12:04"
+}
