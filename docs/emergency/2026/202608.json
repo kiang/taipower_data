@@ -364,18 +364,19 @@
         {
             "date": "20260819",
             "formatted_date": "2026-08-19",
-            "events": 4,
+            "events": 5,
             "times": [
                 "165000",
                 "170000",
                 "171000",
-                "172000"
+                "172000",
+                "173000"
             ],
-            "total_generators": 4,
+            "total_generators": 5,
             "unique_generators": [
                 "興達#4(註12)"
             ]
         }
     ],
-    "generated_at": "2026-08-19 17:32:04"
+    "generated_at": "2026-08-19 17:42:03"
 }
