@@ -577,15 +577,16 @@
         {
             "date": "20260827",
             "formatted_date": "2026-08-27",
-            "events": 1,
+            "events": 2,
             "times": [
-                "190000"
+                "190000",
+                "191000"
             ],
-            "total_generators": 1,
+            "total_generators": 2,
             "unique_generators": [
                 "核二Gas1"
             ]
         }
     ],
-    "generated_at": "2026-08-27 19:12:04"
+    "generated_at": "2026-08-27 19:22:03"
 }
