@@ -1,5 +1,5 @@
 {
-    "total_months": 18,
+    "total_months": 19,
     "months": [
         {
             "year_month": "202503",
@@ -126,7 +126,14 @@
             "month": "08",
             "total_days": 11,
             "file": "docs\/emergency\/2026\/202608.json"
+        },
+        {
+            "year_month": "202609",
+            "year": "2026",
+            "month": "09",
+            "total_days": 1,
+            "file": "docs\/emergency\/2026\/202609.json"
         }
     ],
-    "generated_at": "2026-08-31 18:52:04"
+    "generated_at": "2026-09-02 17:32:04"
 }
