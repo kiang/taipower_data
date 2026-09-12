@@ -2530,9 +2530,9 @@
     },
     {
         "date": "2026-09-13",
-        "load_low": 26060,
+        "load_low": 25927,
         "load_high": 33000,
-        "supply_predict": 37102.9,
-        "comment": "115.09.13(日)04:00更新"
+        "supply_predict": 37101,
+        "comment": "115.09.13(日)04:20更新"
     }
 ]
