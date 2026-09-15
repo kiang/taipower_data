@@ -19,16 +19,17 @@
         {
             "date": "20260915",
             "formatted_date": "2026-09-15",
-            "events": 2,
+            "events": 3,
             "times": [
                 "095000",
-                "100000"
+                "100000",
+                "101000"
             ],
-            "total_generators": 2,
+            "total_generators": 3,
             "unique_generators": [
                 "大林#5"
             ]
         }
     ],
-    "generated_at": "2026-09-15 10:12:04"
+    "generated_at": "2026-09-15 10:22:04"
 }
