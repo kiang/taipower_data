@@ -68,19 +68,20 @@
         {
             "date": "20260917",
             "formatted_date": "2026-09-17",
-            "events": 5,
+            "events": 6,
             "times": [
                 "090000",
                 "091000",
                 "092000",
                 "093000",
-                "094000"
+                "094000",
+                "095000"
             ],
-            "total_generators": 5,
+            "total_generators": 6,
             "unique_generators": [
                 "興達#1(註15)"
             ]
         }
     ],
-    "generated_at": "2026-09-17 09:52:04"
+    "generated_at": "2026-09-17 10:02:03"
 }
