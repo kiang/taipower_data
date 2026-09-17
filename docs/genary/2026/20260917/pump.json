@@ -1,43 +1,43 @@
 {
     "大觀二#1": {
-        "energy_storage_sum": 2816.7,
-        "energy_storage_count": 15,
-        "energy_storage_load_sum": 0,
-        "energy_storage_load_count": 0
-    },
-    "明潭#5": {
-        "energy_storage_sum": 1800.2,
-        "energy_storage_count": 10,
-        "energy_storage_load_sum": 0,
-        "energy_storage_load_count": 0
-    },
-    "電池(註16)": {
-        "energy_storage_sum": 3434,
-        "energy_storage_count": 27,
-        "energy_storage_load_sum": 0,
-        "energy_storage_load_count": 0
-    },
-    "大觀二#4": {
-        "energy_storage_sum": 2922.2,
+        "energy_storage_sum": 3047.3,
         "energy_storage_count": 16,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
+    "明潭#5": {
+        "energy_storage_sum": 2038.3,
+        "energy_storage_count": 11,
+        "energy_storage_load_sum": 0,
+        "energy_storage_load_count": 0
+    },
+    "電池(註16)": {
+        "energy_storage_sum": 3880.2,
+        "energy_storage_count": 28,
+        "energy_storage_load_sum": 0,
+        "energy_storage_load_count": 0
+    },
+    "大觀二#4": {
+        "energy_storage_sum": 3158.5,
+        "energy_storage_count": 17,
+        "energy_storage_load_sum": 0,
+        "energy_storage_load_count": 0
+    },
     "明潭#2": {
-        "energy_storage_sum": 3918.6,
-        "energy_storage_count": 21,
+        "energy_storage_sum": 4158.4,
+        "energy_storage_count": 22,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "明潭#1": {
-        "energy_storage_sum": 2999.1,
-        "energy_storage_count": 15,
+        "energy_storage_sum": 3241.6,
+        "energy_storage_count": 16,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "明潭#4": {
-        "energy_storage_sum": 1904.3,
-        "energy_storage_count": 9,
+        "energy_storage_sum": 2147.5,
+        "energy_storage_count": 10,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     }
