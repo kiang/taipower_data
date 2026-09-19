@@ -1,7 +1,7 @@
 {
     "大觀二#1": {
-        "energy_storage_sum": 777.1,
-        "energy_storage_count": 5,
+        "energy_storage_sum": 918.8,
+        "energy_storage_count": 6,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
@@ -12,14 +12,14 @@
         "energy_storage_load_count": 0
     },
     "明潭#2": {
-        "energy_storage_sum": 836.5,
-        "energy_storage_count": 5,
+        "energy_storage_sum": 981.1,
+        "energy_storage_count": 6,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "明潭#5": {
-        "energy_storage_sum": 839.8,
-        "energy_storage_count": 5,
+        "energy_storage_sum": 981.4,
+        "energy_storage_count": 6,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
