@@ -2,7 +2,7 @@
     "year_month": "202609",
     "year": "2026",
     "month": "09",
-    "total_days": 4,
+    "total_days": 5,
     "dates": [
         {
             "date": "20260902",
@@ -195,7 +195,19 @@
                 "興達#2(註15)",
                 "台中Gas1&amp;2"
             ]
+        },
+        {
+            "date": "20260930",
+            "formatted_date": "2026-09-30",
+            "events": 1,
+            "times": [
+                "171000"
+            ],
+            "total_generators": 1,
+            "unique_generators": [
+                "核二Gas2"
+            ]
         }
     ],
-    "generated_at": "2026-09-24 18:02:04"
+    "generated_at": "2026-09-30 17:22:04"
 }
