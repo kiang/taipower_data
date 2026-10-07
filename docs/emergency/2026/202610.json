@@ -175,7 +175,7 @@
         {
             "date": "20261007",
             "formatted_date": "2026-10-07",
-            "events": 23,
+            "events": 24,
             "times": [
                 "170000",
                 "171000",
@@ -199,14 +199,15 @@
                 "201000",
                 "202000",
                 "203000",
-                "204000"
+                "204000",
+                "205000"
             ],
-            "total_generators": 45,
+            "total_generators": 47,
             "unique_generators": [
                 "核二Gas1",
                 "核三Gas1"
             ]
         }
     ],
-    "generated_at": "2026-10-07 20:52:04"
+    "generated_at": "2026-10-07 21:02:03"
 }
