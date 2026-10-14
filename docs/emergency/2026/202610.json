@@ -2,7 +2,7 @@
     "year_month": "202610",
     "year": "2026",
     "month": "10",
-    "total_days": 8,
+    "total_days": 9,
     "dates": [
         {
             "date": "20261001",
@@ -350,7 +350,19 @@
                 "核三Gas2",
                 "核二Gas2"
             ]
+        },
+        {
+            "date": "20261014",
+            "formatted_date": "2026-10-14",
+            "events": 1,
+            "times": [
+                "160000"
+            ],
+            "total_generators": 1,
+            "unique_generators": [
+                "核三Gas2"
+            ]
         }
     ],
-    "generated_at": "2026-10-13 21:32:04"
+    "generated_at": "2026-10-14 16:12:04"
 }
