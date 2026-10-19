@@ -173,5 +173,12 @@
             "核三Gas1"
         ],
         "count": 1
+    },
+    {
+        "time": "202000",
+        "generators": [
+            "核三Gas1"
+        ],
+        "count": 1
     }
 ]
