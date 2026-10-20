@@ -40,5 +40,13 @@
             "核三Gas1"
         ],
         "count": 1
+    },
+    {
+        "time": "172000",
+        "generators": [
+            "核三Gas1",
+            "台中Gas1&amp;2"
+        ],
+        "count": 2
     }
 ]
