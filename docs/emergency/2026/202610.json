@@ -531,18 +531,20 @@
         {
             "date": "20261021",
             "formatted_date": "2026-10-21",
-            "events": 4,
+            "events": 5,
             "times": [
                 "162000",
                 "163000",
                 "164000",
-                "165000"
+                "165000",
+                "170000"
             ],
-            "total_generators": 4,
+            "total_generators": 6,
             "unique_generators": [
-                "核三Gas1"
+                "核三Gas1",
+                "核二Gas2"
             ]
         }
     ],
-    "generated_at": "2026-10-21 17:02:04"
+    "generated_at": "2026-10-21 17:12:04"
 }
