@@ -576,15 +576,16 @@
         {
             "date": "20261022",
             "formatted_date": "2026-10-22",
-            "events": 1,
+            "events": 2,
             "times": [
-                "113000"
+                "113000",
+                "114000"
             ],
-            "total_generators": 1,
+            "total_generators": 2,
             "unique_generators": [
                 "核二Gas1"
             ]
         }
     ],
-    "generated_at": "2026-10-22 11:42:04"
+    "generated_at": "2026-10-22 11:52:04"
 }
