@@ -1,49 +1,49 @@
 {
     "明潭#4": {
-        "energy_storage_sum": 6462.2,
-        "energy_storage_count": 36,
+        "energy_storage_sum": 6671.4,
+        "energy_storage_count": 37,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "明潭#5": {
-        "energy_storage_sum": 8184.1,
-        "energy_storage_count": 44,
+        "energy_storage_sum": 8393.7,
+        "energy_storage_count": 45,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "電池(註16)": {
-        "energy_storage_sum": 8412.1,
-        "energy_storage_count": 30,
+        "energy_storage_sum": 8807.1,
+        "energy_storage_count": 31,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "大觀二#4": {
-        "energy_storage_sum": 7605.9,
-        "energy_storage_count": 43,
+        "energy_storage_sum": 7777.8,
+        "energy_storage_count": 44,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "明潭#1": {
-        "energy_storage_sum": 3820.4,
-        "energy_storage_count": 19,
+        "energy_storage_sum": 4024.2,
+        "energy_storage_count": 20,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "大觀二#1": {
-        "energy_storage_sum": 5767,
-        "energy_storage_count": 35,
+        "energy_storage_sum": 5943.5,
+        "energy_storage_count": 36,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "明潭#6": {
-        "energy_storage_sum": 3029.8,
-        "energy_storage_count": 17,
+        "energy_storage_sum": 3241,
+        "energy_storage_count": 18,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     },
     "明潭#2": {
-        "energy_storage_sum": 1545.2,
-        "energy_storage_count": 9,
+        "energy_storage_sum": 1748.4,
+        "energy_storage_count": 10,
         "energy_storage_load_sum": 0,
         "energy_storage_load_count": 0
     }
