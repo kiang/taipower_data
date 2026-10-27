@@ -2,7 +2,7 @@
     "year_month": "202610",
     "year": "2026",
     "month": "10",
-    "total_days": 15,
+    "total_days": 16,
     "dates": [
         {
             "date": "20261001",
@@ -668,7 +668,19 @@
             "unique_generators": [
                 "核三Gas2"
             ]
+        },
+        {
+            "date": "20261027",
+            "formatted_date": "2026-10-27",
+            "events": 1,
+            "times": [
+                "161000"
+            ],
+            "total_generators": 1,
+            "unique_generators": [
+                "核三Gas2"
+            ]
         }
     ],
-    "generated_at": "2026-10-26 21:32:03"
+    "generated_at": "2026-10-27 16:22:03"
 }
