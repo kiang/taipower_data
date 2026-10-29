@@ -763,7 +763,7 @@
         {
             "date": "20261029",
             "formatted_date": "2026-10-29",
-            "events": 14,
+            "events": 15,
             "times": [
                 "160000",
                 "161000",
@@ -778,14 +778,15 @@
                 "174000",
                 "175000",
                 "180000",
-                "181000"
+                "181000",
+                "182000"
             ],
-            "total_generators": 20,
+            "total_generators": 22,
             "unique_generators": [
                 "核三Gas2",
                 "核二Gas2"
             ]
         }
     ],
-    "generated_at": "2026-10-29 18:22:04"
+    "generated_at": "2026-10-29 18:32:04"
 }
