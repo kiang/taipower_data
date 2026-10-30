@@ -809,7 +809,7 @@
         {
             "date": "20261030",
             "formatted_date": "2026-10-30",
-            "events": 12,
+            "events": 13,
             "times": [
                 "172000",
                 "173000",
@@ -822,13 +822,14 @@
                 "184000",
                 "184000",
                 "184000",
-                "191100"
+                "191100",
+                "192000"
             ],
-            "total_generators": 12,
+            "total_generators": 13,
             "unique_generators": [
                 "核二Gas2"
             ]
         }
     ],
-    "generated_at": "2026-10-30 19:22:04"
+    "generated_at": "2026-10-30 19:32:04"
 }
