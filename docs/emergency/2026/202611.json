@@ -183,17 +183,18 @@
         {
             "date": "20261109",
             "formatted_date": "2026-11-09",
-            "events": 3,
+            "events": 4,
             "times": [
                 "195000",
                 "200000",
-                "201000"
+                "201000",
+                "202000"
             ],
-            "total_generators": 3,
+            "total_generators": 4,
             "unique_generators": [
                 "核三Gas2"
             ]
         }
     ],
-    "generated_at": "2026-11-09 20:22:04"
+    "generated_at": "2026-11-09 20:32:03"
 }
