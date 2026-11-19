@@ -442,18 +442,19 @@
         {
             "date": "20261119",
             "formatted_date": "2026-11-19",
-            "events": 4,
+            "events": 5,
             "times": [
                 "194000",
                 "195000",
                 "200000",
-                "201000"
+                "201000",
+                "202000"
             ],
-            "total_generators": 4,
+            "total_generators": 5,
             "unique_generators": [
                 "核三Gas1"
             ]
         }
     ],
-    "generated_at": "2026-11-19 20:22:04"
+    "generated_at": "2026-11-19 20:32:04"
 }
