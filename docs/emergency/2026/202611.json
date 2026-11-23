@@ -479,7 +479,7 @@
         {
             "date": "20261123",
             "formatted_date": "2026-11-23",
-            "events": 9,
+            "events": 10,
             "times": [
                 "192000",
                 "193000",
@@ -489,13 +489,14 @@
                 "201000",
                 "202000",
                 "203000",
-                "204000"
+                "204000",
+                "205000"
             ],
-            "total_generators": 9,
+            "total_generators": 10,
             "unique_generators": [
                 "核三Gas2"
             ]
         }
     ],
-    "generated_at": "2026-11-23 20:52:03"
+    "generated_at": "2026-11-23 21:02:04"
 }
