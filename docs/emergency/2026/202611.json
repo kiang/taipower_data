@@ -555,17 +555,18 @@
         {
             "date": "20261125",
             "formatted_date": "2026-11-25",
-            "events": 3,
+            "events": 4,
             "times": [
                 "190000",
                 "191000",
-                "192000"
+                "192000",
+                "193000"
             ],
-            "total_generators": 3,
+            "total_generators": 4,
             "unique_generators": [
                 "核三Gas2"
             ]
         }
     ],
-    "generated_at": "2026-11-25 19:32:03"
+    "generated_at": "2026-11-25 19:42:04"
 }
